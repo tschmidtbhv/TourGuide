@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+
+    <string name="country">Land</string>
+    <string name="cities"><![CDATA[Städte]]></string>
+    <string name="river_and_lake">Flüsse <![CDATA[&]]> Seen</string>
+    <string name="attractions"><![CDATA[Sehenswürdigkeiten]]></string>
+</resources>
