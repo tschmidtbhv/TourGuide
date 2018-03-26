@@ -8,7 +8,7 @@
             android:id="@+id/cities"
             android:title="@string/cities" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/river_and_lake"
             android:title="@string/river_and_lake" />
         <item
             android:id="@+id/attractions"

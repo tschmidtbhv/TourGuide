@@ -7,6 +7,10 @@ package com.example.android.tourguide.helper;
 
 public final class Config {
 
+    public final static String MENUVARIANT = "MENUVARIANT";
+    public final static String FRAGMENTTAG = "FRAGMENTTAG";
+
+    public final static int MENUCOUNTRY = 0;
     public final static int MENUCITY = 1;
     public final static int MENURIVERANDLAKES = 2;
     public final static int MENUATTRACTIONS = 3;
