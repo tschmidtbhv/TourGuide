@@ -23,10 +23,6 @@ public class InfoFragment extends HelperFragment {
     private RecyclerView recyclerView;
     private TextView details;
 
-    public InfoFragment() {
-        // Required empty public constructor
-    }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

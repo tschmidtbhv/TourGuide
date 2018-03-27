@@ -14,7 +14,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".activitys.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,9 +22,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CountryInfoActivity"
+            android:name=".activitys.CountryInfoActivity"
             android:label="@string/title_activity_country_info"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".activitys.MainActivity"
             android:theme="@style/AppTheme" />
     </application>
 

@@ -1,4 +1,4 @@
-package com.example.android.tourguide;
+package com.example.android.tourguide.activitys;
 
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -11,6 +11,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.example.android.tourguide.R;
 import com.example.android.tourguide.adapter.InfoAdapter;
 import com.example.android.tourguide.data.Info;
 import com.example.android.tourguide.fragments.CountryFragment;

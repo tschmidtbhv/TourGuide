@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.android.tourguide.CountryInfoActivity;
+import com.example.android.tourguide.activitys.CountryInfoActivity;
 import com.example.android.tourguide.R;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -24,12 +24,6 @@ import com.google.android.gms.maps.model.MarkerOptions;
 public class CountryFragment extends HelperFragment implements OnMapReadyCallback, GoogleMap.OnInfoWindowClickListener {
 
     private SupportMapFragment mapFragment;
-
-
-    public CountryFragment() {
-        // Required empty public constructor
-    }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
