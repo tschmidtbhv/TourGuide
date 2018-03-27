@@ -21,7 +21,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class CountryFragment extends Fragment implements OnMapReadyCallback, GoogleMap.OnInfoWindowClickListener {
+public class CountryFragment extends HelperFragment implements OnMapReadyCallback, GoogleMap.OnInfoWindowClickListener {
 
     private SupportMapFragment mapFragment;
 

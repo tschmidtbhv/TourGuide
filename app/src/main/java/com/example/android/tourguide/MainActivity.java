@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -15,13 +16,11 @@ import com.example.android.tourguide.data.Info;
 import com.example.android.tourguide.fragments.CountryFragment;
 import com.example.android.tourguide.fragments.InfoFragment;
 import com.example.android.tourguide.helper.Config;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.OnMapReadyCallback;
 
 import static com.example.android.tourguide.helper.Config.FRAGMENTTAG;
 
 
-public class MainActivity extends AppCompatActivity implements InfoAdapter.OnInfoItemSelectedListener, OnMapReadyCallback {
+public class MainActivity extends AppCompatActivity implements InfoAdapter.OnInfoItemSelectedListener {
 
     private DrawerLayout drawerLayout;
 
@@ -46,6 +45,14 @@ public class MainActivity extends AppCompatActivity implements InfoAdapter.OnInf
         setSelectedFragment(R.id.country); //Set the initial fragment
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        if (item.getItemId() == android.R.id.home) drawerLayout.openDrawer(GravityCompat.START);
+
+        return super.onOptionsItemSelected(item);
+    }
+
     /**
      * Initial setup for navigation
      */
@@ -54,8 +61,11 @@ public class MainActivity extends AppCompatActivity implements InfoAdapter.OnInf
         NavigationView navigationView = findViewById(R.id.navigationview);
         navigationView.setNavigationItemSelectedListener(navigationItemSelectedListener);
 
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        Toolbar actionBar = findViewById(R.id.toolbar);
+        setSupportActionBar(actionBar);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_menu_white_24dp);
     }
 
     /**
@@ -110,8 +120,4 @@ public class MainActivity extends AppCompatActivity implements InfoAdapter.OnInf
         infoFragment.updateInfos(info);
     }
 
-    @Override
-    public void onMapReady(GoogleMap googleMap) {
-
-    }
 }
