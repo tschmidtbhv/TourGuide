@@ -31,7 +31,13 @@ public class InfoFragment extends HelperFragment {
 
         details = view.findViewById(R.id.infodetailtext);
         recyclerView = view.findViewById(R.id.recyclerview);
-        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL, false));
+        LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL, false);
+
+        if(getResources().getBoolean(R.bool.isTablet)){
+            layoutManager = new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, false);
+        }
+
+        recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(new InfoAdapter(InfoData.createCities()));
 
         return view;
