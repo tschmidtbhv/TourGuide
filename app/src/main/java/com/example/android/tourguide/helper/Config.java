@@ -5,13 +5,26 @@ package com.example.android.tourguide.helper;
  * Is used for Global App Config
  */
 
-public final class Config {
+public interface Config {
 
-    public final static String MENUVARIANT = "MENUVARIANT";
-    public final static String FRAGMENTTAG = "FRAGMENTTAG";
+    String MENUVARIANT = "MENUVARIANT";
+    String FRAGMENTTAG = "FRAGMENTTAG";
 
-    public final static int MENUCOUNTRY = 0;
-    public final static int MENUCITY = 1;
-    public final static int MENURIVERANDLAKES = 2;
-    public final static int MENUATTRACTIONS = 3;
+    int MENUCOUNTRY = 0;
+    int MENUCITY = 1;
+    int MENURIVERANDLAKES = 2;
+    int MENUATTRACTIONS = 3;
+    int MENUPARKS = 4;
+
+    int NUMBEROFARTICLES = 10;
+
+    // Prefix
+    String MENUPREFIXCITIES = "cities";
+    String MENUPREFIXRIVERLAKES = "rl";
+    String MENUPREFIXATTRACTIONS = "att";
+    String MENUPREFIXPARKS = "park";
+
+    // Resource Types
+    String RESOURCESTRING = "string";
+    String RESOURCEDRAWABLE = "drawable";
 }

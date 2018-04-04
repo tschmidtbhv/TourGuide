@@ -9,6 +9,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
 import com.example.android.tourguide.R;
@@ -24,6 +25,7 @@ import static com.example.android.tourguide.helper.Config.FRAGMENTTAG;
 public class MainActivity extends AppCompatActivity implements InfoAdapter.OnInfoItemSelectedListener {
 
     private DrawerLayout drawerLayout;
+    public static String PACKAGE_NAME;
 
     NavigationView.OnNavigationItemSelectedListener navigationItemSelectedListener = new NavigationView.OnNavigationItemSelectedListener() {
         @Override
@@ -44,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements InfoAdapter.OnInf
 
         setUpNavigation();
         setSelectedFragment(R.id.country); //Set the initial fragment
+        PACKAGE_NAME = getApplicationContext().getPackageName();
     }
 
     @Override
@@ -94,6 +97,9 @@ public class MainActivity extends AppCompatActivity implements InfoAdapter.OnInf
                 break;
             case R.id.attractions:
                 arguments.putInt(Config.MENUVARIANT, Config.MENUATTRACTIONS);
+                break;
+            case R.id.parks:
+                arguments.putInt(Config.MENUVARIANT, Config.MENUPARKS);
                 break;
 
         }

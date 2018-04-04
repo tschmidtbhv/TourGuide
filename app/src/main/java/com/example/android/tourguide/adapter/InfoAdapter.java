@@ -1,15 +1,18 @@
 package com.example.android.tourguide.adapter;
 
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.example.android.tourguide.R;
 import com.example.android.tourguide.data.Info;
+import com.example.android.tourguide.helper.InfoData;
 
-import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by ithom on 26.03.2018.
@@ -18,24 +21,28 @@ import java.util.ArrayList;
 public class InfoAdapter extends RecyclerView.Adapter<InfoAdapter.ViewHolder> {
 
     public interface OnInfoItemSelectedListener {
-        public void onInfoSelected(Info info);
+        void onInfoSelected(Info info);
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
+        TextView title;
+        TextView detail;
         ImageView image;
 
         public ViewHolder(View itemView) {
             super(itemView);
 
+            title = itemView.findViewById(R.id.imagetitle);
+            detail = itemView.findViewById(R.id.infodetailtext);
             image = itemView.findViewById(R.id.infoimage);
         }
     }
 
-    private ArrayList<Info> infoArrayList;
+    private List<Info> infoArrayList;
 
 
-    public InfoAdapter(ArrayList<Info> infoArrayLis) {
+    public InfoAdapter(List<Info> infoArrayLis) {
         this.infoArrayList = infoArrayLis;
     }
 
@@ -62,6 +69,15 @@ public class InfoAdapter extends RecyclerView.Adapter<InfoAdapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        //holder.image.setImageResource();
+
+       // holder.image.setIm
+        Info info = infoArrayList.get(position);
+        holder.title.setText(info.getTitle());
+        //holder.image.setImageResource(info.getImgId());
+        Log.v(InfoAdapter.class.getSimpleName(), "onbind: " + info.getImgId());
+        if(info.getImgId() != -1){
+            holder.image.setImageResource(info.getImgId());
+        }
+        //holder.detail.setText(info.getDetails());
     }
 }

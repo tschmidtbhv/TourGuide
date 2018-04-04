@@ -1,36 +1,207 @@
 <resources>
     <string name="app_name">Tour Guide</string>
 
+    <string name="fullpath">%s%d_field%d</string>
+
     <string name="country">Land</string>
     <string name="cities"><![CDATA[Städte]]></string>
     <string name="river_and_lake">Flüsse <![CDATA[&]]> Seen</string>
     <string name="attractions"><![CDATA[Sehenswürdigkeiten]]></string>
+    <string name="parks">Freizeitparks</string>
 
-    <!-- TODO Delete before submit -->
-    <string name="test_title">Brandenburger Tor</string>
-    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    <string name="title_germany_card">Deutschland</string>
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    <!-- Contentarea -->
 
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+    <!-- Cities Content -->
+    <string name="cities1_field1"></string>
+    <string name="cities1_field2"><![CDATA[]]></string>
+    <string name="cities1_field3"></string>
 
-Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+    <string name="cities2_field1"></string>
+    <string name="cities2_field2"><![CDATA[]]></string>
+    <string name="cities2_field3"></string>
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.
+    <string name="cities3_field1"></string>
+    <string name="cities3_field2"><![CDATA[]]></string>
+    <string name="cities3_field3"></string>
 
-At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+    <string name="cities4_field1"></string>
+    <string name="cities4_field2"><![CDATA[]]></string>
+    <string name="cities4_field3"></string>
 
-Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus.
+    <string name="cities5_field1"></string>
+    <string name="cities5_field2"><![CDATA[]]></string>
+    <string name="cities5_field3"></string>
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    <string name="cities6_field1"></string>
+    <string name="cities6_field2"><![CDATA[]]></string>
+    <string name="cities6_field3"></string>
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    <string name="cities7_field1"></string>
+    <string name="cities7_field2"><![CDATA[]]></string>
+    <string name="cities7_field3"></string>
 
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+    <string name="cities8_field1"></string>
+    <string name="cities8_field2"><![CDATA[]]></string>
+    <string name="cities8_field3"></string>
 
-Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo</string>
-    <string name="title_activity_country_info">CountryInfoActivity</string>
+    <string name="cities9_field1"></string>
+    <string name="cities9_field2"><![CDATA[]]></string>
+    <string name="cities9_field3"></string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cities10_field1"></string>
+    <string name="cities10_field2"><![CDATA[]]></string>
+    <string name="cities10_field3"></string>
+
+
+    <!-- River & lakes Content-->
+
+
+    <string name="rl1_field1"></string>
+    <string name="rl1_field2"><![CDATA[]]></string>
+    <string name="rl1_field3"></string>
+
+    <string name="rl2_field1"></string>
+    <string name="rl2_field2"><![CDATA[]]></string>
+    <string name="rl2_field3"></string>
+
+    <string name="rl3_field1"></string>
+    <string name="rl3_field2"><![CDATA[]]></string>
+    <string name="rl3_field3"></string>
+
+    <string name="rl4_field1"></string>
+    <string name="rl4_field2"><![CDATA[]]></string>
+    <string name="rl4_field3"></string>
+
+    <string name="rl5_field1"></string>
+    <string name="rl5_field2"><![CDATA[]]></string>
+    <string name="rl5_field3"></string>
+
+    <string name="rl6_field1"></string>
+    <string name="rl6_field2"><![CDATA[]]></string>
+    <string name="rl6_field3"></string>
+
+    <string name="rl7_field1"></string>
+    <string name="rl7_field2"><![CDATA[]]></string>
+    <string name="rl7_field3"></string>
+
+    <string name="rl8_field1"></string>
+    <string name="rl8_field2"><![CDATA[]]></string>
+    <string name="rl8_field3"></string>
+
+    <string name="rl9_field1"></string>
+    <string name="rl9_field2"><![CDATA[]]></string>
+    <string name="rl9_field3"></string>
+
+    <string name="rl10_field1"></string>
+    <string name="rl10_field2"><![CDATA[]]></string>
+    <string name="rl10_field3"></string>
+
+
+    <!-- Attractions Content -->
+    <string name="att1_field1">Brandenburger Tor - Berlin</string>
+    <string name="att1_field2"><![CDATA[Das Brandenburger Tor in Berlin ist ein frühklassizistisches Triumphtor, das an der Westflanke des quadratischen Pariser Platzes im Berliner Ortsteil Mitte steht. Es wurde als Abschluss der zentralen Prachtstraße der Dorotheenstadt, der Straße Unter den Linden, in den Jahren von 1789 bis 1793 auf Anweisung des preußischen Königs Friedrich Wilhelm II. nach Entwürfen von Carl Gotthard Langhans errichtet. Die das Tor krönende Skulptur der Quadriga ist ein Werk nach dem Entwurf des Bildhauers Johann Gottfried Schadow. Westlich des Brandenburger Tores befinden sich die ausgedehnten Grünflächen des Großen Tiergartens, die in gradliniger Verlängerung der Straße Unter den Linden von der Straße des 17. Juni durchquert werden. Die Platzfläche unmittelbar westlich des Tores trägt den Namen Platz des 18. März.
+Das Tor ist das einzig erhaltene von zuletzt 18 Berliner Stadttoren. In der Formensprache stellt es die Hinwendung vom römischen zum griechischen Vorbild dar. Es ist eines der ersten klassizistischen Bauwerke in Preußen und markiert hiermit den Beginn des Klassizismus als staatstragende Architektur in Preußen.
+Das Tor ist eines der bekanntesten Berliner Wahrzeichen und nationales Symbol, mit dem viele wichtige geschichtliche Ereignisse des 19. und 20. Jahrhunderts verbunden sind. So wurde bis zum Zweiten Weltkrieg vor allem das Ende der napoleonischen Herrschaft 1813–1815 mit dem Bauwerk verbunden. In der Weimarer Republik wurde hier alljährlich am 11. August der Verfassungstag begangen. Nach starken Kriegszerstörungen wurde das Tor bis 1957 wiederaufgebaut. Eine umfassende, knapp zweijährige Sanierung fand bis 2002 durch die Stiftung Denkmalschutz Berlin statt.
+Heute wird das Tor vor allem als Symbol des freiheitlich-demokratischen, wiedervereinigten Deutschlands angesehen. Bis zum Fall des Eisernen Vorhangs stand es unmittelbar an der Grenze zwischen Ost- und West-Berlin und damit im Kalten Krieg an der Grenze zwischen dem Warschauer Pakt und der NATO.]]></string>
+    <string name="att1_field3">brandenburger_tor</string>
+
+    <string name="att2_field1">Elbphilharmonie - Hamburg</string>
+    <string name="att2_field2"><![CDATA[Die Elbphilharmonie (kurz auch „Elphi“ oder „Elbphi“ genannt)[1][2][3] ist ein im November 2016 fertiggestelltes Konzerthaus in Hamburg. Sie wurde mit dem Ziel geplant, ein neues Wahrzeichen der Stadt und ein „Kulturdenkmal für alle“ zu schaffen.[4][5][6] Das 110 Meter hohe Gebäude im Stadtteil HafenCity liegt am rechten Ufer der Norderelbe an der Spitze des Großen Grasbrooks zwischen den Mündungen der Hafenbecken Sandtorhafen und Grasbrookhafen. Es wurde unter Einbeziehung der Hülle des früheren Kaispeichers A (Baujahr 1963) errichtet. Auf diesen Sockel wurde ein moderner Aufbau mit einer Glasfassade gesetzt, die an Segel, Wasserwellen oder einen Quarzkristall erinnert. Die Lage am Kaiserhöft ist von der einstigen industriellen Hafennutzung und der neugotischen Backsteinarchitektur der Speicherstadt geprägt.
+Das Konzept des Konzerthauses geht auf eine Idee des Hamburger Projektentwicklers Alexander Gérard zurück. Der Bau wurde dann 2007 durch die Bürgerschaft unter Bürgermeister Ole von Beust beschlossen. Entwurf und Planung der Philharmonie stammen im Wesentlichen vom Architekturbüro Herzog & de Meuron. Bauherr war die Elbphilharmonie Bau KG, deren Kommanditist und Hauptfinanzier die Freie und Hansestadt Hamburg mit Steuermitteln ist. Das Gebäude wurde in ihrem Auftrag vom Baudienstleister Hochtief errichtet.
+Die Fertigstellung des Gebäudes war nach einem mehrjährigen Vorlauf für das Jahr 2010 vorgesehen, verzögerte sich jedoch mehrfach, u. a. auch bedingt durch einen anderthalbjährigen Baustopp im öffentlichen Bereich. Erst nach einer umfangreichen Projektneuordnung zwischen den Architekten, dem Bauherren und der Baufirma kurz nach der Wahl des Bürgermeisters Olaf Scholz, wurde nach dem Baustopp weitergebaut. Durch die Verzögerungen am Bau und die Überschreitung der ursprünglich veranschlagten Baukosten (die Baukosten betrugen am Ende etwas mehr als das 11,24-fache der mit ursprünglich 77 Millionen Euro geplanten Summe) wurde die Elbphilharmonie bereits lange vor der Fertigstellung bundesweit bekannt.[7] Der im neuen Vertrag vereinbarte Termin für die Bau- und Schlüsselübergabe am 31. Oktober 2016 wurde eingehalten.[8] Die Einweihung des Konzertbereichs wurde am 11. und 12. Januar 2017 mit dem Konzert „Zum Raum wird hier die Zeit“ des NDR Elbphilharmonie Orchesters gefeiert (Konzertprogramm).[9][10] Der Kleine Saal wurde am 12. Januar 2017 vom Ensemble Resonanz eingeweiht. Im ersten Jahr nach der Eröffnung besuchten rund 850.000 Menschen die über 600 Konzerte in der Elbphilharmonie, über 4,5 Millionen Besucher pilgerten auf die Plaza, mehr als 70.000 Menschen nahmen an Konzerthausführungen und über 60.000 am Musikvermittlungsprogramm des Hauses teil.]]></string>
+    <string name="att2_field3">elbphilharmonie</string>
+
+    <string name="att3_field1">Englischer Garten - München</string>
+    <string name="att3_field2"><![CDATA[Der Englische Garten befindet sich im Münchner Nordosten am Westufer der Isar. Mit seiner 375 Hektar großen Grünanlage ist er einer der größten Parkanlagen der Welt. Die Bezeichnung Englischer Garten wurde von den englischen Landschaftsgärten übernommen, die Friedrich Ludwig von Sckell bei der Gestaltung des Geländes zum Vorbild genommen hatte.
+Der Münchner Englische Garten zählte zu den ersten großen kontinentaleuropäischen Parkanlagen, die von jedermann betreten werden durften. Als eine der weiträumigsten innerstädtischen Parkanlagen der Welt ist der Englische Garten sowohl bei den Münchnern als auch bei den Touristen beliebt.
+In den 1940er Jahren entstand eine „Lastenstraße“, deren Bau mit Kriegszwecken begründet wurde. Nach dem Zweiten Weltkrieg wurde die Verbindung zum Isarring, einer vierstreifigen Hauptverkehrsstraße, erweitert. Diese teilt seitdem die Grünanlage in einen Süd- (den ursprünglichen „Englischen Garten“) und einen Nordteil (die Hirschau). Der südliche, zur Innenstadt gelegene Bereich mit einer Länge von zwei Kilometern umfasst etwa 130 Hektar, der nördliche, weniger stark besuchte, etwa 245 Hektar und erstreckt sich über drei Kilometer parallel zur Isar.]]></string>
+    <string name="att3_field3">teehaus_im_englischen_garten</string>
+
+    <string name="att4_field1">Frauenkirche - Dresden</string>
+    <string name="att4_field2"><![CDATA[Die Frauenkirche in Dresden (ursprünglich Kirche Unserer Lieben Frau – der Name bezieht sich auf die Heilige Maria) ist eine evangelisch-lutherische Kirche des Barocks und der prägende Monumentalbau des Dresdner Neumarkts. Die 1994 bis 2005 wiederaufgebaute Kirche gilt als prachtvolles Zeugnis des protestantischen Sakralbaus und besitzt eine der größten steinernen Kirchenkuppeln nördlich der Alpen.
+Die Dresdner Frauenkirche wurde von 1726 bis 1743 nach einem Entwurf von George Bähr erbaut und wurde zu einem Emblem sowohl des Dresdner Barocks wie auch der berühmten Stadtsilhouette. Im Luftkrieg des Zweiten Weltkriegs wurde sie während der Luftangriffe auf Dresden in der Nacht vom 13. zum 14. Februar 1945 durch den in Dresden wütenden Feuersturmschwer beschädigt und stürzte am Morgen des 15. Februar ausgebrannt in sich zusammen. In der DDR blieb ein kleiner Teil der Kirche als Ruine erhalten und wurde als Mahnmal gegen Kriegund Zerstörung belassen, statt wie andere Kirchenruinen abgerissen zu werden.
+Nach der Wende begann 1994 der Wiederaufbau des Kirchbaus. Die 2005 abgeschlossenen Wiederaufbauarbeiten gelangen nur mit Unterstützung von Fördervereinen und Spendern aus aller Welt, darunter den US-amerikanischen „Friends of Dresden“. Im Umfeld der Frauenkirche entsteht seitdem auf Initiative der Gesellschaft Historischer Neumarkt Dresden (GHND) der Neumarktwieder, mit mehreren Rekonstruktionen von Bürgerhäusern.
+Am 30. Oktober 2005 fand in der Frauenkirche ein Weihegottesdienst und Festakt statt. Aus dem Mahnmal gegen den Krieg wurde nun ein offizielles Symbol der Versöhnung.]]></string>
+    <string name="att4_field3">dresden_frauenkirche</string>
+
+    <string name="att5_field1">Kölner Dom - Köln</string>
+    <string name="att5_field2"><![CDATA[Der Kölner Dom (eigentlich die Hohe Domkirche Sankt Petrus) ist eine römisch-katholische Kirche in Köln unter dem Patrozinium des Apostels Petrus.[1] Der Kölner Dom ist die Kathedrale des Erzbistums Köln sowie Metropolitankirche der Kirchenprovinz Köln und war bis Ende 2009 auch Pfarrkirche der Domgemeinde; er ist seit 2010 von der Pfarrseelsorge exemt. Der Kölner Dom ist seit 1996 UNESCO-Weltkulturerbe.
+Der Kölner Dom ist mit 157,38 Metern Höhe nach dem Ulmer Münster das zweithöchste Kirchengebäude Europas sowie das dritthöchste der Welt. Der Kölner Dom steht rund 250 Meter vom Rhein entfernt an der ehemaligen nördlichen römischen Stadtgrenze in direkter Nachbarschaft von Hauptbahnhof, Hohenzollernbrücke, Museum Ludwig und Römisch-Germanischem Museum. Er ist auf dem Domhügel rund 17 m über dem Rhein von einer modernen Betonkonstruktion, der Domplatte, umgeben. Seine Adresse ist Domkloster 4, 50667 Köln.
+Der Kölner Dom ist eine der größten Kirchen im gotischen Baustil. In ihm sehen viele Kunsthistoriker eine einmalige Harmonisierung sämtlicher Bauelemente und des Schmuckwerks im Stil der spätmittelalterlich-gotischen Architektur verwirklicht. Wichtig zum Verständnis ist, dass der Kölner Dom zwar im 13. Jahrhundert (Gotik) begonnen, aber erst nach jahrhundertelangem Baustopp im 19. Jahrhundert (Neugotik) vollendet wurde. Daher ist seine Westfassade, die charakteristische Doppelturmfront, weitgehend im industrialisierten 19. Jahrhundert gebaut worden, jedoch nach mittelalterlichen Plänen, die 1814/1816 wiedergefunden wurden. Die mittelalterliche Gotik hat nur zwei bedeutende Kirchtürme dieser durchbrochenen Bauart hervorgebracht: Straßburg und Freiburg. Alle anderen ähnlichen Türme wie beispielsweise in Ulm oder Regensburg sind Werke der Neugotik des 19. Jahrhunderts.
+Die Westfassade mit den beiden Türmen ist über 7100 m² groß und ist die größte Doppelturmfassade der Welt. Der Kölner Dom war von 1880 bis 1884 das höchste Gebäude der Welt. Er ist zudem die meistbesuchte Sehenswürdigkeit Deutschlands: das Domkapitel gibt 20.000 bis 30.000 Besucher pro Tag an, das entspricht sieben bis acht Millionen Besuchern jährlich. Im August 2005 besuchte ihn Papst Benedikt XVI. zum Weltjugendtag 2005. Daran erinnert im Mittelschiff eine vom Kölner Bildhauer Heribert Calleen gestaltete bronzene Gedenktafel.]]></string>
+    <string name="att5_field3"></string>
+
+    <string name="att6_field1">Miniatur Wunderland - Hamburg</string>
+    <string name="att6_field2"><![CDATA[Das Miniatur Wunderland in Hamburg ist die größte Modelleisenbahnanlage der Welt.
+Sie befindet sich in der historischen Speicherstadt und wird von der Miniatur Wunderland Hamburg GmbH betrieben. Auf der 1490 Quadratmeter großen Anlagenfläche liegen insgesamt 15,4 Kilometer Gleise (Stand Oktober 2016) im Maßstab 1:87 (Nenngröße H0; entspräche in der Realität etwa 1340 Kilometer Gleise), auf denen rund 1040 digital gesteuerte Züge verkehren.]]></string>
+    <string name="att6_field3"></string>
+
+    <string name="att7_field1">Nationalpark Sächsische Schweiz - Freistaat Sachsen</string>
+    <string name="att7_field2"><![CDATA[Der Nationalpark Sächsische Schweiz ist ein deutscher Nationalpark. Er erstreckt sich auf einer Fläche von 93,5 km² über die rechtselbischen Kerngebiete des Elbsandsteingebirges im Freistaat Sachsen. Gegründet wurde der Nationalpark am 1. Oktober 1990 im Rahmen des Nationalparkprogramms der DDR.
+Zusammen mit dem umliegenden, 1956 gegründeten Landschaftsschutzgebiet bildet der Nationalpark die Nationalparkregion Sächsische Schweiz. Im benachbarten Tschechien setzt sich das Schutzgebiet im Nationalpark Böhmische Schweiz fort.
+Der Nationalpark Sächsische Schweiz ist eine der wichtigsten Attraktionen im Elbsandsteingebirge: Mit jährlich 1,7 Millionen Besuchern erwirtschaftet der Tourismus in der Nationalparkregion so viel, dass damit rechnerisch der Lebensunterhalt von 1.878 Personen gesichert ist.]]></string>
+    <string name="att7_field3"></string>
+
+    <string name="att8_field1">Pergamonmuseum - Berlin</string>
+    <string name="att8_field2"><![CDATA[Das Pergamonmuseum ist Teil des Museumsensembles auf der Berliner Museumsinsel.
+Das Gebäude wurde seit 1907 von Alfred Messel aufgrund eines Konzepts von Wilhelm von Bode geplant, zwischen 1910 und 1930 nach Plänen von Alfred Messel und Ludwig Hoffmann für den von Carl Humann entdeckten Pergamonaltar, die Sammlung deutscher Kunst der Gemälde- und Skulpturengalerie (das sogenannte „Deutsche Museum“), die Vorderasiatische Abteilung mit hethitischen, sumerischen, assyrischen, babylonischen und persischen Kunstwerken sowie die Islamische Kunst-Abteilung (u. a. mit der Mschatta-Fassade) erbaut.
+Aktuell beherbergt das Pergamonmuseum Teile der Antikensammlung, das Vorderasiatische Museum und das Museum für Islamische Kunst. Das Pergamonmuseum war 2007 mit etwa 1.135.000 Besuchern das meistbesuchte Berliner Museum und das am besten besuchte deutsche Kunstmuseum. Abgesehen von 2004 war es seit 1999 jeweils das meistbesuchte Berliner Museum.
+Aufgrund umfangreicher Sanierungsarbeiten wurde der Saal mit dem Pergamonaltar am 29. September 2014 bis voraussichtlich 2023 geschlossen,[1] Teile des Museums bleiben aber geöffnet.]]></string>
+    <string name="att8_field3"></string>
+
+    <string name="att9_field1">Schloss Neuschwanstein - Bayern</string>
+    <string name="att9_field2"><![CDATA[
+Das Schloss Neuschwanstein steht oberhalb von Hohenschwangau bei Füssen im südlichen Bayern. Der Bau wurde ab 1869 für den bayerischen König Ludwig II. als idealisierte Vorstellung einer Ritterburg aus der Zeit des Mittelalters errichtet. Die Entwürfe stammen von Christian Jank, die Ausführung übernahmen Eduard Riedel und Georg von Dollmann. Der König lebte nur wenige Monate im Schloss, er starb noch vor der Fertigstellung der Anlage. Neuschwanstein wurde ursprünglich als Neue Burg Hohenschwangau bezeichnet, seinen heutigen Namen trägt es seit 1886. Eigentümer des Schlosses ist der Freistaat Bayern; es wird von der Bayerischen Verwaltung der staatlichen Schlösser, Gärten und Seen betreut und bewirtschaftet.
+Neuschwanstein ist das berühmteste der Schlösser Ludwigs II. und eine der bekanntesten Sehenswürdigkeiten Deutschlands. Es wird jährlich von etwa 1,5 Millionen Touristen besucht. Das oftmals als „Märchenschloss“ bezeichnete Neuschwanstein kann besichtigt werden und ist nahezu ganzjährig für Besucher geöffnet. Die Architektur und Innenausstattung sind vom romantischen Eklektizismus des 19. Jahrhunderts geprägt; das Schloss gilt als ein Hauptwerk des Historismus. Eine Aufnahme der „Ludwig-Schlösser“ Neuschwanstein, Linderhof und Herrenchiemsee in die Liste des Weltkulturerbes der UNESCO wird angestrebt.]]></string>
+    <string name="att9_field3"></string>
+
+    <string name="att10_field1">Zoologische Garten - Berlin</string>
+    <string name="att10_field2"><![CDATA[Der Zoologische Garten Berlin im Berliner Ortsteil Tiergarten (Bezirk Mitte) ist der älteste Zoo Deutschlands und neben dem Tierpark Friedrichsfelde einer der beiden Zoologischen Gärten Berlins. Im Zentrum Berlins sind auf einer 33 Hektar großen Fläche 20.200 Tiere aus rund 1400 Arten zu sehen, darunter befinden sich neben Exoten vom Aussterben bedrohte Tierarten.
+Neben dem Zoo Berlin liegt das Schauaquarium[3] in dem auf drei Etagen Fische, Reptilien, Amphibien sowie Wirbellose wie Insekten zu sehen sind. Mit dem angeschlossenen Aquarium gehört der Zoo Berlin zu den meistbesuchten Sehenswürdigkeiten Berlins. 3,3 Millionen Menschen besuchten im Jahr 2015 den Berliner Zoo einschließlich Aquarium.
+Der Zoo ist Namensgeber des Bahnhofs Zoologischer Garten, der sich am Hardenbergplatz gegenüber dem Zoo-Verwaltungsgebäude und dem Löwentor befindet.]]></string>
+    <string name="att10_field3"></string>
+
+
+    <!-- Parks Content -->
+    <string name="park1_field1"></string>
+    <string name="park1_field2"><![CDATA[]]></string>
+    <string name="park1_field3"></string>
+
+    <string name="park2_field1"></string>
+    <string name="park2_field2"><![CDATA[]]></string>
+    <string name="park2_field3"></string>
+
+    <string name="park3_field1"></string>
+    <string name="park3_field2"><![CDATA[]]></string>
+    <string name="park3_field3"></string>
+
+    <string name="park4_field1"></string>
+    <string name="park4_field2"><![CDATA[]]></string>
+    <string name="park4_field3"></string>
+
+    <string name="park5_field1"></string>
+    <string name="park5_field2"><![CDATA[]]></string>
+    <string name="park5_field3"></string>
+
+    <string name="park6_field1"></string>
+    <string name="park6_field2"><![CDATA[]]></string>
+    <string name="park6_field3"></string>
+
+    <string name="park7_field1"></string>
+    <string name="park7_field2"><![CDATA[]]></string>
+    <string name="park7_field3"></string>
+
+    <string name="park8_field1"></string>
+    <string name="park8_field2"><![CDATA[]]></string>
+    <string name="park8_field3"></string>
+
+    <string name="park9_field1"></string>
+    <string name="park9_field2"><![CDATA[]]></string>
+    <string name="park9_field3"></string>
+
+    <string name="park10_field1"></string>
+    <string name="park10_field2"><![CDATA[]]></string>
+    <string name="park10_field3"></string>
 </resources>

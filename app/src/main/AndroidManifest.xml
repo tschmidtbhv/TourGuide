@@ -23,7 +23,7 @@
         </activity>
         <activity
             android:name=".activitys.CountryInfoActivity"
-            android:label="@string/title_activity_country_info"
+            android:label="@string/title_germany_card"
             android:parentActivityName=".activitys.MainActivity"
             android:theme="@style/AppTheme" />
     </application>

@@ -1,9 +1,14 @@
 package com.example.android.tourguide.helper;
 
+import android.content.Context;
+import android.util.Log;
+
 import com.example.android.tourguide.R;
+import com.example.android.tourguide.activitys.MainActivity;
 import com.example.android.tourguide.data.Info;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by ithom on 26.03.2018.
@@ -13,9 +18,18 @@ import java.util.ArrayList;
 
 public final class InfoData {
 
+    Context mContext;
+    List<Info> mInfoList;
+
+
+    public InfoData(Context context, int menuId){
+        mContext = context;
+        createInfosForMenuId(menuId);
+    }
 
     /**
      * Get the Title Id
+     *
      * @param menuId
      * @return titleId
      */
@@ -23,7 +37,7 @@ public final class InfoData {
 
         int titleId;
 
-        switch (menuId){
+        switch (menuId) {
 
             case Config.MENUCOUNTRY:
                 titleId = R.string.country;
@@ -37,6 +51,9 @@ public final class InfoData {
             case Config.MENUATTRACTIONS:
                 titleId = R.string.attractions;
                 break;
+            case Config.MENUPARKS:
+                titleId = R.string.parks;
+                break;
             default:
                 titleId = R.string.app_name;
                 break;
@@ -45,21 +62,85 @@ public final class InfoData {
         return titleId;
     }
 
-    /**
-     * create the cities ArrayList
-     * @return ArrayList with Info Object (Cities)
-     */
-    public static ArrayList<Info> createCities() {
-
-        ArrayList<Info> cities = new ArrayList<>();
-        for(int i = 0; i< 20; i++){
-            Info info = new Info();
-            info.setTitle("Titel " + (i +1));
-            info.setDetails("Details");
-            if((i % 2) == 0)info.setDetails("DETAILS");
-            //TODO add city informations
-            cities.add(info);
-        }
-        return cities;
+    public List<Info> getInfoList() {
+        return mInfoList;
     }
+
+    /**
+     * Get the infos
+     *
+     * @param menuId
+     * @return titleId
+     */
+    private void createInfosForMenuId(int menuId) {
+
+        if(mInfoList == null)mInfoList = new ArrayList<>();
+
+        switch (menuId) {
+
+            case Config.MENUCITY:
+                mInfoList = getInfoDataForPrefix(Config.MENUPREFIXCITIES);
+                break;
+            case Config.MENURIVERANDLAKES:
+                mInfoList = getInfoDataForPrefix(Config.MENUPREFIXRIVERLAKES);
+                break;
+            case Config.MENUATTRACTIONS:
+                mInfoList = getInfoDataForPrefix(Config.MENUPREFIXATTRACTIONS);
+                break;
+            case Config.MENUPARKS:
+                mInfoList = getInfoDataForPrefix(Config.MENUPREFIXPARKS);
+                break;
+            default:
+                mInfoList = getInfoDataForPrefix(Config.MENUPREFIXCITIES);
+                break;
+        }
+
+
+    }
+
+    private String getFullResourceStringId(String prefix, int itemNumber, int itemField) {
+        String path = mContext.getString(R.string.fullpath, prefix, itemNumber, itemField);
+        Log.v(InfoData.class.getSimpleName(), "path " + path);
+        return path;
+    }
+
+    /**
+     * Get Info Objects for given prefix
+     *
+     * @param prefix for selected Menu
+     * @return List
+     */
+    private List<Info> getInfoDataForPrefix(String prefix) {
+        List<Info> infoList = new ArrayList<>();
+        for (int i = 0; i < Config.NUMBEROFARTICLES; i++) {
+
+            String title = getStringResourceByName(getFullResourceStringId(prefix,(i +1),1));
+            String details = getStringResourceByName(getFullResourceStringId(prefix,(i +1),2));
+            String image = getStringResourceByName(getFullResourceStringId(prefix,(i +1),3));
+
+            int imageId = getResourceId(image, Config.RESOURCEDRAWABLE);
+
+            Info info = new Info(title, details, imageId);
+            infoList.add(info);
+        }
+        return infoList;
+    }
+
+    /**
+     * Get String from Resource by name insteed of "int" id
+     *
+     * @param aString
+     * @return
+     */
+    private String getStringResourceByName(String aString) {
+        int resId = getResourceId(aString, Config.RESOURCESTRING);
+        return mContext.getString(resId);
+    }
+
+    private int getResourceId(String aString, String type){
+
+        int resId = mContext.getResources().getIdentifier(aString, type, MainActivity.PACKAGE_NAME);
+        return resId;
+    }
+
 }

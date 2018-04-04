@@ -9,10 +9,7 @@ public final class Info {
 
     private String title;
     private String details;
-
-    public Info(){
-
-    }
+    private int imgId;
 
     public Info(String title, String details, int imgId) {
 
@@ -30,7 +27,6 @@ public final class Info {
         this.imgId = imgId;
     }
 
-    private int imgId;
 
     public String getTitle() {
         return title;
