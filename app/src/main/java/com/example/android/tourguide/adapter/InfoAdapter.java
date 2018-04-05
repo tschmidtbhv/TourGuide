@@ -21,7 +21,7 @@ import java.util.List;
 public class InfoAdapter extends RecyclerView.Adapter<InfoAdapter.ViewHolder> {
 
     public interface OnInfoItemSelectedListener {
-        void onInfoSelected(Info info);
+        void onInfoSelected(Info info, int position);
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
@@ -54,8 +54,9 @@ public class InfoAdapter extends RecyclerView.Adapter<InfoAdapter.ViewHolder> {
         viewHolder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Info info = infoArrayList.get(viewHolder.getAdapterPosition());
-                ((OnInfoItemSelectedListener) parent.getContext()).onInfoSelected(info);
+                int position = viewHolder.getAdapterPosition();
+                Info info = infoArrayList.get(position);
+                ((OnInfoItemSelectedListener) parent.getContext()).onInfoSelected(info, position);
             }
         });
 
@@ -70,14 +71,15 @@ public class InfoAdapter extends RecyclerView.Adapter<InfoAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
 
-       // holder.image.setIm
         Info info = infoArrayList.get(position);
         holder.title.setText(info.getTitle());
-        //holder.image.setImageResource(info.getImgId());
         Log.v(InfoAdapter.class.getSimpleName(), "onbind: " + info.getImgId());
         if(info.getImgId() != -1){
             holder.image.setImageResource(info.getImgId());
         }
-        //holder.detail.setText(info.getDetails());
+    }
+
+    public Info getInfoItem(int position){
+        return infoArrayList.get(position);
     }
 }

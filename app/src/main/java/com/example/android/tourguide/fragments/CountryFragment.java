@@ -32,6 +32,7 @@ public class CountryFragment extends HelperFragment implements OnMapReadyCallbac
         return inflater.inflate(R.layout.fragment_country, container, false);
     }
 
+
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
@@ -42,12 +43,16 @@ public class CountryFragment extends HelperFragment implements OnMapReadyCallbac
         }
     }
 
+    /**
+     *
+     * @param googleMap
+     */
     @Override
     public void onMapReady(GoogleMap googleMap) {
 
         LatLng germany = new LatLng(51.165691, 10.451526);
-        LatLng berlin = new LatLng(52.510494, 13.396764);
-        googleMap.addMarker(new MarkerOptions().position(berlin).title("Berlin"));
+
+        googleMap.addMarker(new MarkerOptions().position(germany).title(getString(R.string.title_germany_card)));
 
         googleMap.setOnInfoWindowClickListener(this);
         googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(germany, 5));

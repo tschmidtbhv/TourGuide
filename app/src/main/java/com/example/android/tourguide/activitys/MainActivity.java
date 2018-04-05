@@ -3,14 +3,13 @@ package com.example.android.tourguide.activitys;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.widget.ArrayAdapter;
-import android.widget.Toast;
 
 import com.example.android.tourguide.R;
 import com.example.android.tourguide.adapter.InfoAdapter;
@@ -24,6 +23,7 @@ import static com.example.android.tourguide.helper.Config.FRAGMENTTAG;
 
 public class MainActivity extends AppCompatActivity implements InfoAdapter.OnInfoItemSelectedListener {
 
+    private Fragment fragment;
     private DrawerLayout drawerLayout;
     public static String PACKAGE_NAME;
 
@@ -45,7 +45,11 @@ public class MainActivity extends AppCompatActivity implements InfoAdapter.OnInf
         setContentView(R.layout.activity_main);
 
         setUpNavigation();
-        setSelectedFragment(R.id.country); //Set the initial fragment
+
+        fragment = getSupportFragmentManager().findFragmentByTag(FRAGMENTTAG);
+        if(fragment == null){
+            setSelectedFragment(R.id.country); //Set the initial fragment
+        }
         PACKAGE_NAME = getApplicationContext().getPackageName();
     }
 
@@ -79,7 +83,6 @@ public class MainActivity extends AppCompatActivity implements InfoAdapter.OnInf
      */
     private void setSelectedFragment(int itemId) {
 
-        Fragment fragment = null;
         Bundle arguments = new Bundle();
 
         if (itemId != R.id.country) fragment = new InfoFragment();
@@ -114,17 +117,35 @@ public class MainActivity extends AppCompatActivity implements InfoAdapter.OnInf
      */
     private void setFragment(Fragment fragment) {
         if (fragment != null) {
-            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-            transaction.replace(R.id.viewHolder, fragment, FRAGMENTTAG);
+
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            Fragment tempFrag = fragmentManager.findFragmentByTag(FRAGMENTTAG);
+            FragmentTransaction transaction = fragmentManager.beginTransaction();
+
+            if(tempFrag != null){
+                transaction.replace(R.id.viewHolder, fragment,FRAGMENTTAG);
+            }else {
+                transaction.add(R.id.viewHolder, fragment, FRAGMENTTAG);
+            }
+
             transaction.commit();
         }
     }
 
     @Override
-    public void onInfoSelected(Info info) {
-        Toast.makeText(this, "selected", Toast.LENGTH_SHORT).show();
+    protected void onPause() {
+        super.onPause();
+
+        if(isFinishing()){
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            fragmentManager.beginTransaction().remove(fragment).commit();
+        }
+    }
+
+    @Override
+    public void onInfoSelected(Info info, int position) {
         InfoFragment infoFragment = (InfoFragment) getSupportFragmentManager().findFragmentByTag(FRAGMENTTAG);
-        infoFragment.updateInfos(info);
+        infoFragment.updateInfos(info, position);
     }
 
 }

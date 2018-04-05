@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Tour Guide</string>
+    <string name="menu">Menü</string>
 
     <string name="fullpath">%s%d_field%d</string>
 
@@ -14,89 +15,135 @@
     <!-- Contentarea -->
 
     <!-- Cities Content -->
-    <string name="cities1_field1"></string>
-    <string name="cities1_field2"><![CDATA[]]></string>
-    <string name="cities1_field3"></string>
+    <string name="cities1_field1">Berlin -  Bundeshauptstadt von Deutschland</string>
+    <string name="cities1_field2"><![CDATA[Berlin [bɛɐ̯ˈliːn] ist die Bundeshauptstadt der Bundesrepublik Deutschland und zugleich eines ihrer Länder. Die Stadt Berlin ist mit gut 3,7 Millionen Einwohnern die bevölkerungsreichste und mit 892 Quadratkilometern die flächengrößte Gemeinde Deutschlands. Sie bildet das Zentrum der Metropolregion Berlin/Brandenburg (rund 6 Millionen Einwohner) und der Agglomeration Berlin (rund 4,5 Millionen Einwohner). Der Stadtstaat besteht aus zwölf Bezirken. Neben den Flüssen Spree und Havel befinden sich im Stadtgebiet kleinere Fließgewässer sowie zahlreiche Seen und Wälder.
+Urkundlich erstmals im 13. Jahrhundert erwähnt, war Berlin im Verlauf der Geschichte und in verschiedenen Staatsformen Residenz- und Hauptstadt Brandenburgs, Preußens und des Deutschen Reichs. Ab 1949 war der Ostteil der Stadt Hauptstadt der Deutschen Demokratischen Republik. Mit der deutschen Wiedervereinigung im Jahr 1990 wurde Berlin wieder gesamtdeutsche Hauptstadt und in der Folge Sitz der Bundesregierung, des Bundespräsidenten, des Bundestages, des Bundesrates sowie zahlreicher Bundesministerien und Botschaften.
+Zu den bedeutenden Wirtschaftszweigen in Berlin gehören unter anderem der Tourismus, die Kreativ- und Kulturwirtschaft, die Biotechnologie und Gesundheitswirtschaft mit Medizintechnik und pharmazeutischer Industrie, die Informations- und Kommunikationstechnologien, die Bau- und Immobilienwirtschaft, der Handel, die Optoelektronik, die Energietechnik sowie die Messe- und Kongresswirtschaft. Die Stadt ist ein europäischer Knotenpunkt des Schienen- und Luftverkehrs. Berlin zählt zu den aufstrebenden, internationalen Zentren für innovative Unternehmensgründer und verzeichnet jährlich hohe Zuwachsraten bei der Zahl der Erwerbstätigen.
+Berlin gilt als Weltstadt der Kultur, Politik, Medien und Wissenschaften. Die Universitäten, Forschungseinrichtungen, Sportereignisse und Museen Berlins genießen internationalen Ruf. Die Metropole trägt den UNESCO-Titel Stadt des Designs und ist eines der meistbesuchten Zentren des Kontinents. Berlins Architektur, Festivals, Nachtleben und vielfältige Lebensbedingungen sind weltweit bekannt.]]></string>
+    <string name="cities1_field3">berlin</string>
 
-    <string name="cities2_field1"></string>
-    <string name="cities2_field2"><![CDATA[]]></string>
-    <string name="cities2_field3"></string>
+    <string name="cities2_field1">Bremen</string>
+    <string name="cities2_field2"><![CDATA[Die Stadtgemeinde Bremen ist die Hauptstadt des Landes Freie Hansestadt Bremen (kurz ebenfalls „Bremen“, Aussprache?/i). Zu dem Zwei-Städte-Staat gehört neben Bremen noch das 53 km nördlich gelegene Bremerhaven. Die Stadtgemeinde Bremen ist mit rund 566.000 Einwohnern die elftgrößte Stadt in Deutschland. Bremen gehört zur Europäischen Metropolregion Bremen/Oldenburg mit gut 2,7 Mio. Einwohnern, einer von insgesamt elf Europäischen Metropolregionen in Deutschland.
+Das Stadtbremische Überseehafengebiet Bremerhaven ist eine Exklave der Stadt Bremen innerhalb von Bremerhaven.]]></string>
+    <string name="cities2_field3">bremen</string>
 
-    <string name="cities3_field1"></string>
-    <string name="cities3_field2"><![CDATA[]]></string>
-    <string name="cities3_field3"></string>
+    <string name="cities3_field1">Dresden - Sachsen</string>
+    <string name="cities3_field2"><![CDATA[Dresden (Aussprache?/i; obersorbisch Drježdźany; abgeleitet aus dem altsorbischen Drežďany für Sumpf- oder Auwaldbewohner) ist die Landeshauptstadt des FreistaatesSachsen. Mit etwa 550.000 Einwohnern ist Dresden nach Leipzig die zweitgrößte sächsische Stadt und die zwölftgrößte Stadt Deutschlands.
+Als Sitz der Sächsischen Staatsregierung und des Sächsischen Landtags sowie zahlreicher Landesbehörden ist die Großstadt politisches Zentrum Sachsens. Außerdem sind bedeutende Bildungs- und Kultureinrichtungen des Freistaates hier konzentriert, darunter die renommierte Technische Universität, die Hochschule für Technik und Wirtschaft und die Hochschule für Bildende Künste Dresden. Die an der Elbe gelegene kreisfreie Stadt ist sowohl eines der sechs Oberzentren Sachsens als auch Verkehrsknotenpunkt und wirtschaftliches Zentrum des Ballungsraumes Dresden, einer der ökonomisch dynamischsten Regionen in Deutschland mit über 770.000 Einwohnern.[2] Innovationen und Spitzentechnologien spielen im Raum Dresden eine herausragende Rolle; wirtschaftlich bedeutend sind etwa die Informationstechnik und Nanoelektronik, bei denen Dresden weltweit eine führende Rolle spielt, weshalb es sich auch als Zentrum von „Silicon Saxony“ positioniert. Ebenfalls große Wertschöpfung im Raum Dresden erbringen die Branchen Pharmazie und Kosmetik, Maschinen-, Fahrzeug- und Anlagenbau, Lebensmittel, die optische Industrie, Dienstleistungen und Handel sowie der Tourismus.
+Archäologische Spuren auf dem späteren Stadtgebiet deuten auf eine Besiedlung schon in der Steinzeit hin. In erhaltenen Urkunden wurde Dresden 1206 erstmals erwähnt und entwickelte sich zur kurfürstlichen, später königlichen Residenz und Hauptstadt der sächsischen Republiken.
+International bekannt ist die Landeshauptstadt für ihre in großen Teilen rekonstruierte und durch verschiedene architektonische Epochen geprägte Altstadt mit der Frauenkirche am Neumarkt, der Semperoper und der Hofkirche sowie dem Residenzschloss und dem Zwinger. Der 1434 begründete Striezelmarkt ist einer der ältesten und bekanntesten Weihnachtsmärkte Deutschlands. Dresden wird auch Elbflorenz genannt, ursprünglich vor allem wegen seiner Kunstsammlungen; maßgeblich trug dazu sowohl seine barocke und mediterran geprägte Architektur als auch seine Lage im Elbtal bei.]]></string>
+    <string name="cities3_field3">dresden</string>
 
-    <string name="cities4_field1"></string>
-    <string name="cities4_field2"><![CDATA[]]></string>
-    <string name="cities4_field3"></string>
+    <string name="cities4_field1">Düsseldorf - Nordrhein Westfalen</string>
+    <string name="cities4_field2"><![CDATA[Düsseldorf ist die Landeshauptstadt Nordrhein-Westfalens und der Behördensitz des Regierungsbezirks Düsseldorf. Die kreisfreie Stadt am Rhein ist mit 635.704 Einwohnern (31. Dezember 2016) nach Köln die zweitgrößte Stadt des Landes. In Deutschland ist Düsseldorf nach Einwohnern die siebtgrößte Stadt. Düsseldorf ist Teil der Metropolregion Rhein-Ruhr mit rund zehn Millionen Einwohnern und der Metropolregion Rheinland mit 8,6 Millionen Einwohnern. Die Stadt liegt im Kern des zentralen europäischen Wirtschaftsraumes.
+Im Jahr 1288 erhielt der Ort an der Mündung des Flüsschens Düssel in den Rhein das Stadtrecht. Vom Ende des 14. Jahrhunderts bis zum Beginn des 19. Jahrhunderts war die Stadt Regierungssitz von Ländern des Heiligen Römischen Reichs und des Rheinbundes: des Herzogtums Berg, der Herzogtümer Jülich-Berg und Jülich-Kleve-Berg sowie des Großherzogtums Berg, von 1690 bis 1716 auch Residenz des Pfalzgrafen und Kurfürsten Johann Wilhelm von der Pfalz. Vom 19. bis ins 20. Jahrhundert war sie Parlamentssitz der Rheinprovinz des Königreichs Preußen. Im Kaiserreich entwickelte sich Düsseldorf im Zuge der Hochindustrialisierung in Deutschland zum „Schreibtisch des Ruhrgebiets“ und wurde mit dem Überschreiten der Marke von 100.000 Einwohnern im Jahr 1882 zur Großstadt.
+Die Rheinmetropole gehört zu den fünf wichtigsten, international stark verflochtenen Wirtschaftszentren Deutschlands. Düsseldorf ist eine Messestadt und Sitz vieler börsennotierter Unternehmen, darunter der im DAX notierte Konzern Henkel. Zudem ist sie der umsatzstärkste deutsche Standort für Wirtschaftsprüfung, Unternehmens- und Rechtsberatung, Werbung und Kleidermode sowie ein wichtiger Banken- und Börsenplatz. Auch im Kunsthandel Deutschlands ist sie führend.
+Düsseldorf besitzt mehrere Rheinhäfen. Sein Flughafen Düsseldorf Airport ist das interkontinentale Drehkreuz Nordrhein-Westfalens. Die Stadt ist des Weiteren Sitz von 22 Hochschulen, darunter die renommierte Kunstakademie Düsseldorf und die Heinrich-Heine-Universität. Überregionale Bekanntheit genießt Düsseldorf außerdem durch seine Altstadt („längste Theke der Welt“), seinen Einkaufsboulevard Königsallee („Kö“), seinen Düsseldorfer Karneval, den Fußballverein Fortuna Düsseldorf und den Eishockeyverein Düsseldorfer EG. Weitere Anziehungspunkte sind zahlreiche Museen und Galerien sowie die Rheinuferpromenade und der moderne Medienhafen. Das Stadtbild wird auch durch zahlreiche Hochhäuser und Kirchtürme, den 240 Meter hohen Rheinturm, viele Baudenkmäler und sieben Rheinbrücken geprägt. Bemerkenswert ist die große Anzahl ostasiatischerEinwohner, darunter die japanische Gemeinde, welche die größte japanische Gemeinde Deutschlands bildet. In einem Vergleich der Lebensqualität von 231 Großstädten in der Welt nimmt Düsseldorf den sechsten Platz ein.]]></string>
+    <string name="cities4_field3">duesseldorf</string>
 
-    <string name="cities5_field1"></string>
-    <string name="cities5_field2"><![CDATA[]]></string>
-    <string name="cities5_field3"></string>
+    <string name="cities5_field1">Frankfurt am Main - Hessen</string>
+    <string name="cities5_field2"><![CDATA[Frankfurt am Main ist mit etwa 736.000 Einwohnern die größte Stadt Hessens und die fünftgrößte Deutschlands. Sie ist kreisfrei und bildet das Zentrum des Ballungsraums Frankfurt mit etwa 2,5 Millionen[2] Einwohnern (mit Offenbach, Hanau und dem Vortaunus). In der gesamten Metropolregion Rhein-Main leben etwa 5,5 Millionen Menschen.
+Seit dem Mittelalter gehört Frankfurt am Main zu den bedeutenden städtischen Zentren Deutschlands. Im Jahr 794 erstmals urkundlich erwähnt, war es seit 1372 Freie Reichsstadtund bis 1806 Wahl-, seit 1562 auch Krönungsstadt der römisch-deutschen Kaiser. Der Krönungsweg führte vom Römerberg über den Markt zum Kaiserdom. Von 1815 an war Frankfurt am Main Freie Stadt. Hier tagten die Bundesversammlung des Deutschen Bundes und 1848/49 in der Paulskirche mit der Nationalversammlung das erste deutsche Parlament. Nach dem Deutschen Krieg wurde der zuvor fast 500 Jahre unabhängige Stadtstaat Frankfurt 1866 Bestandteil von Preußen. Durch die rasche Industrialisierung setzte ein Bevölkerungsschub ein. Seit 1875 zählte die Stadt über 100.000 Einwohner, seit 1928 mehr als 500.000, im Jahr 2013 erstmals über 700.000. Als Zeichen der Verpflichtung zur europäischen Einigung nennt sich Frankfurt seit 1998 Europastadt.[3]
+Heute ist Frankfurt einer der wichtigsten internationalen Finanzplätze, bedeutendes Industrie-, Dienstleistungs- und Messezentrum und zählt zu den Weltstädten.[4] Frankfurt am Main ist Sitz der Europäischen Zentralbank, der Deutschen Bundesbank, der Frankfurter Wertpapierbörse, zahlreicher Finanzinstitute (darunter Deutsche Bank, Commerzbank, DZ Bank, KfW), der Aufsichtsbehörden BaFin und EIOPA und der Messe Frankfurt. Die Internationale Automobil-Ausstellung, die Frankfurter Buchmesse und die Musikmessegelten als Weltleitmessen ihrer Sparten. Die Stadt ist zudem Sitz der Sportverbände Deutscher Olympischer Sportbund, Deutscher Fußball-Bund und Deutscher Motor Sport Bund.
+Dank seiner zentralen Lage ist Frankfurt am Main ein europäischer Verkehrsknotenpunkt. Der Flughafen gehört zu den größten der Welt, der Hauptbahnhof ist ein zentraler Bahnknotenpunkt und das Frankfurter Kreuz der meistbefahrene Straßenknotenpunkt Deutschlands. Darüber hinaus ist der DE-CIX in Frankfurt, gemessen am Durchsatz, der weltweit größte Internet-Knoten.
+Eine Besonderheit für eine europäische Stadt ist die stetig wachsende Hochhaus-Skyline Frankfurts. Wegen der Ballung von Hochhäusern, die zu den höchsten Europas gehören, wird Frankfurt am Main mitunter als Mainhattan bezeichnet. Historische Wahrzeichen der Stadt sind das rekonstruierte Ensemble der Altstadt mit Römerberg samt Rathaus Römer, Dom-Römer-Areal und der Kaiserdom. Mehr als 40 Prozent des Stadtgebiets sind Parks und Landschaftsschutzgebiete, darunter der Frankfurter Grüngürtel mit dem seit 1372 im Besitz der Stadt befindlichen Frankfurter Stadtwald.
+Das kulturelle Leben der Stadt ist wesentlich von bürgerlichen Stiftungen, Mäzenatentum und liberalen Privateninitiativen geprägt. Dazu gehören die Städtischen Bühnen mit den beiden Sparten Oper Frankfurt und Schauspiel Frankfurt, das Frankfurter Museumsufer, das Senckenberg Naturmuseum, die Schirn Kunsthalle und das Museum für Moderne Kunst, das Historische Museum und Goethes Geburtshaus in der Altstadt, die Alte Oper, das English Theatre, der Zoo und der Palmengarten. Die 1914 durch eine Bürgerstiftung als Königliche Universität gegründete Goethe-Universität ist die viertgrößte deutsche Hochschule nach Anzahl der Studenten. Sie brachte mehrere Leibniz- und Nobelpreisträgerhervor. Darüber hinaus gibt es in der Stadt sieben weitere staatliche, kirchliche und private Hochschulen mit zusammen über 60.000 Studenten.]]></string>
+    <string name="cities5_field3">frankfurt</string>
 
-    <string name="cities6_field1"></string>
-    <string name="cities6_field2"><![CDATA[]]></string>
-    <string name="cities6_field3"></string>
+    <string name="cities6_field1">Hamburg</string>
+    <string name="cities6_field2"><![CDATA[Die Freie und Hansestadt Hamburg ([ˈhambʊʁk]; regional auch [ˈhambʊɪ̯ç], niederdeutsch Friee un Hansestadt Hamborg [ˈhambɔːχ], Ländercode: HH, Abkürzung: FHH oder FuHH) ist ein Stadtstaat und ein Land der Bundesrepublik Deutschland. Der amtliche Name geht auf die Geschichte Hamburgs als Freie Reichsstadt und als führendes Mitglied der Hanse zurück.
+Hamburg ist mit ca. 1,8 Millionen Einwohnern aus 183 Ländern die zweitgrößte Stadt Deutschlands nach Berlin und die größte Stadt in der Europäischen Union, die keine Hauptstadt ist. Die Metropolregion Hamburg hat über fünf Millionen Einwohner,[9] der städtische Ballungsraum zählt 2,7 Millionen Einwohner. Das Stadtgebiet ist in sieben Bezirke und 104 Stadtteile gegliedert.
+Der seit dem 7. Mai 1189 bestehende Hamburger Hafen ist einer der größten Umschlaghäfen weltweit und macht Hamburg zusammen mit seinem internationalen Flughafen zu einem der bedeutendsten Logistikstandorte in Europa. Aktuell wird ein Strukturwandel zu einem Kreativ-, Wissenschafts- und Finanzplatz angestrebt.[18] Wirtschaftlich und wissenschaftlich ist die Metropole vor allem im Bereich der Spitzentechnologien wie der Luft- und Raumfahrttechnik, der Biowissenschaften und der Informationstechnik, sowie für die Konsumgüterbranche bedeutend. Hamburg hat eine in Mitteleuropa führende Medienlandschaft und Videospielbranche, ein wachsendes Startup-Ökosystem sowie eine dynamische Kultur- und Kreativszene. Der Bildungs- und Forschungsstandort Hamburg ist Zentrum mehrerer renommierter Bildungseinrichtungen, Institute und Forschungszentren.
+Am 5. Juli 2015 wurden die Speicherstadt aus der Zeit der Industrialisierung und das angrenzende Kontorhausviertel von der UNESCO als Weltkulturerbe in die Welterbeliste aufgenommen. Weitere bekannte Kulturdenkmäler sind das Rathaus und die markanten Hauptkirchen. Typisch für das Stadtbild sind Klinkerfassaden und viele Wasserlagen an den Flüssen Elbe und Alster sowie zahlreichen Fleeten und Kanälen. Europaweit bekannt sind auch der „Kiez“ als Vergnügungsviertel und Türöffner für Musiker und andere Künstler, sowie das Konzerthaus der Elbphilharmonie. Der Musicalstandort Hamburg ist der bedeutendste auf dem europäischen Kontinent. Hamburg verzeichnet ein verstärktes Wachstum im Bereich des internationalen Stadttourismus und gilt als eine der Städte mit der höchsten Lebensqualität der Welt.
+Hamburg ist seit 1996 Sitz des Internationalen Seegerichtshofs (ISGH). Seit 2004 findet mit dem Hamburg Summit ein bedeutendes chinesisch-europäisches Gipfeltreffen statt. Im Juli 2017 fand in der Hansestadt der G20-Gipfel statt.]]></string>
+    <string name="cities6_field3">hamburg</string>
 
-    <string name="cities7_field1"></string>
-    <string name="cities7_field2"><![CDATA[]]></string>
-    <string name="cities7_field3"></string>
+    <string name="cities7_field1">Hannover - Niedersachsen</string>
+    <string name="cities7_field2"><![CDATA[Hannover [haˈnoːfɐ] ist die Hauptstadt des Landes Niedersachsen. Der am Südrand des Norddeutschen Tieflandes an der Leine gelegene Ort wurde 1150 erstmals erwähnt, erhielt 1241 das Stadtrecht und war ab 1636 welfische Residenzstadt, ab 1692 Kurhannovers und ab 1814 des Königreichs Hannover sowie nach dessen Annexion durch Preußenzwischen 1866 und 1946 Hauptstadt der Provinz Hannover. Seit 1875 Großstadt, zählt Hannover heute mit 532.864 Einwohnern (Ende 2016) zu den 15 einwohnerreichsten Städten Deutschlands.
+Stadt und früherer Landkreis sind zu einem Kommunalverband besonderer Art, der Region Hannover, zusammengeschlossen, die der Metropolregion Hannover-Braunschweig-Göttingen-Wolfsburg angehört. Bei Hannover kreuzen sich wichtige Schienen- und Straßenverkehrsverbindungen der Nord-Süd- mit solchen der Ost-West-Richtung. Über den Mittellandkanal ist die Stadt an das Binnenschifffahrtsnetz angebunden.
+Hannover ist Standort von neun Hochschulen und von internationalen Messen wie der seit 1947 stattfindenden Hannover-Messe, der CeBIT und der Agritechnica; mit 131 Hektar ist das Messegelände das größte weltweit.]]></string>
+    <string name="cities7_field3">hannover</string>
 
-    <string name="cities8_field1"></string>
-    <string name="cities8_field2"><![CDATA[]]></string>
-    <string name="cities8_field3"></string>
+    <string name="cities8_field1">Köln - Nordrhein - Westfalen</string>
+    <string name="cities8_field2"><![CDATA[Köln (kölsch Kölle) ist mit mehr als einer Million Einwohnern die bevölkerungsreichste Stadt des Landes Nordrhein-Westfalen sowie nach Berlin, Hamburg und München die viertgrößte Stadt Deutschlands. Die kreisfreie Stadt gehört zum Regierungsbezirk Köln und ist das Zentrum des Ballungsraumes zwischen Kölner Bucht und Oberbergischem Land(siehe auch Region Köln/Bonn) mit gut vier Millionen Einwohnern. Die Weltstadt ist zugleich das rheinische Bevölkerungszentrum der Metropolregion Rhein-Ruhr mit etwa zehn Millionen Einwohnern. Die heutige Metropole am Rhein wurde in römischer Zeit unter dem Namen Oppidum Ubiorum gegründet und im Jahr 50 n. Chr. als Colonia Claudia Ara Agrippinensium (kurz Colonia oder CCAA) zur Stadt erhoben.
+Köln besitzt als Wirtschafts- und Kulturmetropole internationale Bedeutung. Sie zählt zu den wichtigsten Standorten der Chemie- und Automobilindustrie weltweit und beherbergt, teilweise zusammen mit einigen ihrer Vororte, Firmensitze und Produktionsstätten von zwölf internationalen Automobilmarken wie Ford und Toyota sowie zahlreicher Chemiekonzerne wie Lanxess. Die Karnevalshochburg ist außerdem Sitz vieler öffentlicher Verbände und professioneller Sportvereine. Zahlreiche Fernsehsender, Filmstudios, Musikproduzenten, Verlagshäuser und andere Medienunternehmen wie RTL und der WDR haben hier ihren Standort. Köln gilt ferner als eines der führenden Zentren des weltweiten Kunsthandels. Darüber hinaus zählt die Stadt vor allem aufgrund des bedeutenden Kölner Doms und ihrer romanischen Kirchen sowie weiterer mittelalterlicher Baudenkmäler, einer über 2000-jährigen Stadtgeschichte, bedeutsamer Veranstaltungen sowie ihrem kulturellen und kulinarischen Erbe zu den wichtigsten Reisezielen innerhalb Europas. Ebenfalls ist Köln bedeutender Kongress- und Messestandort: die Fototechnikmesse Photokina, die Süßwarenmesse und die Videospielmesse Gamescom gelten als Weltleitmessen, die Art Cologne als älteste Kunstmesse der Welt. Dank der Universität zu Köln (etwa 50.000 Studierende), der Technischen Hochschule Köln (etwa 25.000 Studierende) und zahlreicher weiterer Hochschulen stellt sie obendrein den größten Bildungs- und Forschungsstandort im Westen Deutschlands dar.
+Die günstige Lage am Rhein mit der Querung bedeutender West-Ost-Handelsstraßen und dem Sitz weltlicher sowie insbesondere kirchlicher Macht trug im Heiligen Römischen Reich zur überregionalen Geltung Kölns bei. Als Hansestadt wurde sie durch Freihandel zu einem wichtigen Handelsstandort. Ihre Bedeutung als Verkehrsknotenpunkt zeigen heute der umfangreiche Schienenpersonenfernverkehr sowie der Bahnhof Eifeltor, der zu den größten Containerumschlagbahnhöfen gehört. Ergänzt wird die Infrastruktur durch vier Binnenhäfen und den internationalen Flughafen Köln/Bonn.]]></string>
+    <string name="cities8_field3">koeln</string>
 
-    <string name="cities9_field1"></string>
-    <string name="cities9_field2"><![CDATA[]]></string>
-    <string name="cities9_field3"></string>
+    <string name="cities9_field1">München - Bayern</string>
+    <string name="cities9_field2"><![CDATA[München (hochdeutsch [ˈmʏnçn̩] oder [ˈmʏnçən̩]; bairisch Minga?/i [ˈmɪŋ(:)ɐ]) ist die Landeshauptstadt des Freistaates Bayern. Sie ist mit rund 1,5 Millionen Einwohnern die einwohnerstärkste Stadt Bayerns und (nach Berlin und Hamburg) die nach Einwohnern drittgrößte Gemeinde Deutschlands sowie die viertgrößte Stadt im deutschsprachigen Raum und zwölftgrößte der Europäischen Union. Im Ballungsraum München leben mehr als 2,9 Millionen Menschen, die flächengrößere europäische Metropolregion Münchenumfasst rund 5,7 Millionen Einwohner.
+Die Landeshauptstadt ist eine kreisfreie Stadt und ein bayerisches Oberzentrum, zudem Verwaltungssitz des die Stadt umgebenden gleichnamigen Landkreises mit dem Landratsamt München als Verwaltung, des Bezirks Oberbayern und des Regierungsbezirks Oberbayern.
+München wird zu den Weltstädten gezählt. Die Metropole ist eine der wirtschaftlich erfolgreichsten und am schnellsten wachsenden Europas. Sie ist Sitz zahlreicher Konzerne, darunter fünf DAX-Unternehmen (Allianz, BMW, Linde, Munich Re, Siemens). Hier befindet sich die einzige Börse Bayerns. In der Städteplatzierung des Beratungsunternehmens Mercer belegte München im Jahr 2014 unter fünfzig Großstädten weltweit nach Infrastruktur den zweiten und nach Lebensqualität den vierten Platz. Andererseits wird die Lebensqualität zunehmend durch Agglomerationsnachteile, wie Verkehrs- und Umweltbelastung sowie sehr hohe Wohneigentumspreise und Mieten eingeschränkt, weshalb auch die Wohnfläche pro Einwohner weit unter dem Bundesdurchschnitt liegt. München gilt als sicherste Kommune unter den deutschen Großstädten über 200.000 Einwohnern hinsichtlich der Kriminalitätsrate aller Straftaten.
+München wurde 1158 erstmals urkundlich erwähnt. Die Stadt wurde 1255 bayerischer Herzogssitz, war von 1328 bis 1347 kaiserliche Residenzstadt und wurde 1506 alleinige Hauptstadt Bayerns. München ist Sitz zahlreicher nationaler und internationaler Behörden sowie wichtiger Universitäten und Hochschulen, bedeutender Museen und Theater. Durch eine große Anzahl sehenswerter Bauten samt geschützten Baudenkmälern und Ensembles, internationaler Sportveranstaltungen, Messen und Kongresse sowie das weltbekannte Oktoberfest ist München ein Anziehungspunkt für den internationalen Tourismus.]]></string>
+    <string name="cities9_field3">muenchen</string>
 
-    <string name="cities10_field1"></string>
-    <string name="cities10_field2"><![CDATA[]]></string>
-    <string name="cities10_field3"></string>
+    <string name="cities10_field1">Stuttgart - Baden - Württemberg</string>
+    <string name="cities10_field2"><![CDATA[Stuttgart ist die Hauptstadt des deutschen Landes Baden-Württemberg und mit rund 630.000 Einwohnern dessen größte Stadt. Die sechstgrößte Stadt Deutschlands bildet das Zentrum der rund 2,7 Millionen Einwohner zählenden Region Stuttgart, eines der größten Ballungsräume Deutschlands. Zudem ist sie Kernstadt der europäischen Metropolregion Stuttgart (etwa 5,3 Millionen Einwohner), der fünftgrößten in Deutschland. Stuttgart hat den Status eines Stadtkreises und ist in 23 Bezirke gegliedert.
+Als Sitz der baden-württembergischen Landesregierung und des Landtags sowie zahlreicher Landesbehörden ist Stuttgart das politische Zentrum des Landes (siehe auch Liste der Behörden und Einrichtungen in Stuttgart). Es ist Sitz des Regierungspräsidiums Stuttgart, das den gleichnamigen Regierungsbezirk verwaltet. In Stuttgart tagt das Regionalparlament der Region Stuttgart, einer der drei Regionen im Regierungsbezirk Stuttgart. Darüber hinaus ist Stuttgart Sitz des evangelischen Landesbischofs von Württemberg und Teil der katholischen Diözese Rottenburg-Stuttgart. Die Stadt ist ein wichtiger Wirtschaftsstandort und Finanzplatz. Sie ist bekannt als Heimat der deutschen Automobilfirmen Daimler und Porsche.
+Das Stuttgarter Stadtbild wird durch viele Anhöhen (teilweise Weinberge), Täler (insbesondere Stuttgarter Talkessel und Neckartal), Grünanlagen (u. a. Rosensteinpark, Schlossgarten, Höhenpark) sowie eine dichte urbane Bebauung mit hohem Anteil von Nachkriegsbauten, diversen Baudenkmälern, Kirchbauten und einigen Hochhäusern geprägt.]]></string>
+    <string name="cities10_field3">stuttgart</string>
 
 
     <!-- River & lakes Content-->
 
 
-    <string name="rl1_field1"></string>
-    <string name="rl1_field2"><![CDATA[]]></string>
-    <string name="rl1_field3"></string>
+    <string name="rl1_field1">Bodensee - See</string>
+    <string name="rl1_field2"><![CDATA[Die Bezeichnung Bodensee steht für zwei Seen und einen sie verbindenden Flussabschnitt des Rheins, nämlich den Obersee (auch alleine Bodensee genannt), denSeerhein und den Untersee. Der Bodensee liegt im Bodenseebecken, das Teil des nördlichen Alpenvorlandes ist, und wird vom Rhein durchflossen.
+Dieser Artikel behandelt neben dem Bodensee selbst auch die umgebende Bodenseeregion, die sich je nach räumlicher Definition weit ins Hinterland erstreckt.
+Drei Staaten haben Anteil an Bodensee und Bodenseeregion: Deutschland, Österreich und die Schweiz. Während es im Untersee eine anerkannte Grenzziehung zwischen Deutschland und der Schweiz gibt, wurde von den Anrainerstaaten des Obersees nie einvernehmlich eine Grenze festgelegt.]]></string>
+    <string name="rl1_field3">bodensee</string>
 
-    <string name="rl2_field1"></string>
-    <string name="rl2_field2"><![CDATA[]]></string>
-    <string name="rl2_field3"></string>
+    <string name="rl2_field1">Chiemsee - See</string>
+    <string name="rl2_field2"><![CDATA[Der Chiemsee [ˈkiːmzeː], auch „bayerisches Meer“ genannt, ist mit einer Fläche von 79,9 km² der größte See in Bayern und nach dem Bodensee und der Müritz der drittgrößteSee in Deutschland. In Bayern hat allerdings der Starnberger See ein um die Hälfte größeres Wasservolumen.
+Der Chiemsee enthält 2,048 km³ Wasser und hat eine 63,96 km lange Uferlinie; zusammen mit der Uferlänge der Inseln sind es 83 km. Das Einzugsgebiet umfasst 1.398,56 km², davon liegen 605 km² in Bayern. Seine Inseln sind die Herreninsel (238 ha), die Fraueninsel (15,5 ha) und die Krautinsel (3,5 ha), die zusammen die Gemeinde Chiemsee bilden, sowie die gemeindefreie Insel Schalch (22 m²). Er zählt zum gleichnamigen gemeindefreien Gebiet Chiemsee im Landkreis Traunstein.]]></string>
+    <string name="rl2_field3">chiemsee</string>
 
-    <string name="rl3_field1"></string>
-    <string name="rl3_field2"><![CDATA[]]></string>
-    <string name="rl3_field3"></string>
+    <string name="rl3_field1">Donau - Fluss</string>
+    <string name="rl3_field2"><![CDATA[Die Donau ist mit einer mittleren Wasserführung von rund 6855 m³/s[2] und einer Gesamtlänge von 2857 Kilometern[1] nach der Wolga der zweitgrößte und zweitlängste Fluss in Europa. Der Strom entwässert weite Teile Mittel- und Südosteuropas. Er durchfließt bzw. berührt dabei zehn Länder (Deutschland, Österreich, Slowakei, Ungarn, Kroatien, Serbien, Bulgarien, Rumänien, die Republik Moldau und die Ukraine) – so viele wie kein anderer Fluss auf der Erde.
+Die Donau führt ihren Namen ab der Vereinigung zweier Quellflüsse, der Brigach und der größeren Breg, die beide im Mittleren Schwarzwald entspringen. Sie durchquert drei große Beckenlandschaften: das nördliche Alpenvorland und das Wiener Becken (Oberlauf), die Pannonische Tiefebene (Mittellauf) und das Walachische Tiefland (Unterlauf). Die trennenden Gebirge durchschneidet sie in Engtälern, deren bekannteste Abschnitte der Donaudurchbruch bei Beuron, die Wachau, die Hainburger Pforte (auch Preßburger Pforte) und das Eiserne Tor sind. Der Strom mündet über das ausgedehnte Donaudelta ins Schwarze Meer.
+Die Donau ist eine der ältesten und bedeutendsten europäischen Handelsrouten und verbindet dabei unterschiedliche Kulturkreise. Politische Spannungen und Kriege bewirkten immer wieder Sperren und Behinderungen der Wasserstraße. Seit dem Fall des Eisernen Vorhanges hat die Donau wieder ihre wirtschaftliche Bedeutung erhalten. Der Fluss verbindet viele artenreiche und unverbaute Naturräume und ist ein wichtiger Standort für Wasserkraftwerke.]]></string>
+    <string name="rl3_field3">donau_fluss</string>
 
-    <string name="rl4_field1"></string>
-    <string name="rl4_field2"><![CDATA[]]></string>
-    <string name="rl4_field3"></string>
+    <string name="rl4_field1">Elbe - Fluss</string>
+    <string name="rl4_field2"><![CDATA[Die Elbe (niederdeutsch Elv, tschechisch Labe, lateinisch Albis) ist ein mitteleuropäischer Strom, der in Tschechien entspringt, durch Deutschland fließt und in die Nordsee mündet. Sie ist der einzige Fluss, der das von Mittelgebirgen umschlossene Böhmen zur Nordsee hin entwässert. Zu den bekanntesten Gewässern ihres Einzugsgebiets gehören die Moldau, die Saale, die Havel mit der Spree und die Elde mit der Müritz. Im Oberlauf durch die Mittelgebirge geprägt, folgt sie im weiteren Verlauf zwei Urstromtälern des Norddeutschen Tieflands.
+Gemessen an der Größe ihres Einzugsgebietes von 148.300 km² liegt sie für Mitteleuropa gemäß Liste der Flüsse in Europa an vierter Stelle hinter der Donau, der Weichselund dem Rhein, gefolgt von Oder und Memel.]]></string>
+    <string name="rl4_field3">elbe_fluss</string>
 
-    <string name="rl5_field1"></string>
-    <string name="rl5_field2"><![CDATA[]]></string>
-    <string name="rl5_field3"></string>
+    <string name="rl5_field1">Main - Fluss</string>
+    <string name="rl5_field2"><![CDATA[
+Der Main ist mit 527 Kilometern Fließstrecke der längste rechte Nebenfluss des Rheins.
+Die Quellflüsse des Mains entspringen im Fichtelgebirge (Weißer Main) und in der Fränkischen Alb (Roter Main). Am westlichen Rand der Stadt Kulmbach im Stadtteil Melkendorf nahe dem Schloss Steinenhausen vereinigen sich die beiden Quellflüsse zum eigentlichen Main. Der Flusslauf hält trotz vieler markanter Richtungswechsel seine – in Mitteleuropa seltene – ostwestliche Hauptrichtung bei und berührt dabei mehrere fränkische Mittelgebirge, das fränkische Weinbaugebiet und zahlreiche, teils gut erhaltene historische Stadtkerne. Große Ballungsräume durchfließt der Main um Würzburg und Frankfurt. Gegenüber der Mainzer Altstadt – zwischen Ginsheim-Gustavsburg und der Maaraue in Mainz-Kostheim – mündet er in den Rhein. Von dort (Kilometer 0) flussaufwärts bis oberhalb der Eisenbahnbrücke bei Hallstadt (Kilometer 387,69) ist der Main (Ma) Bundeswasserstraße.
+Der Main ist nicht ausnehmend lang, aber gleichwohl ein historisch und geografisch bedeutender Fluss. In der Spätantike war sein Unterlauf ab Miltenberg die Außengrenze der Provinz Obergermanien des Römischen Reichs. Die Mainlinie trennte im 19. Jahrhundert die Einflusssphären der beiden deutschen Großmächte Österreich und Preußeninnerhalb des Deutschen Bundes mit seinem Sitz in Frankfurt unmittelbar am Main. Der tatsächlich innerhalb Oberdeutschlands verlaufende Main ist zwar weder eine Dialekt-, noch eine Kulturgrenze, doch gliedert nach geläufigem Verständnis die Mainlinie Deutschland in einen nördlichen und südlichen Teil. Das Rhein-Main-Gebiet ist verkehrsgeographisch die Mitte Deutschlands und Europas.]]></string>
+    <string name="rl5_field3">main_fluss</string>
 
-    <string name="rl6_field1"></string>
-    <string name="rl6_field2"><![CDATA[]]></string>
-    <string name="rl6_field3"></string>
+    <string name="rl6_field1">Mosel - Fluss</string>
+    <string name="rl6_field2"><![CDATA[Die Mosel (französisch Moselle, luxemburgisch Musel) ist mit 544 km Fließstrecke der zweitlängste Nebenfluss des Rheins. Der Fluss entspringt in Frankreich, in den Vogesen am Col de Bussang. In Lothringen fließt sie durch Remiremont und Épinal, im weiten Bogen um Nancy nach Metz und weiter nach Norden. Dann bildet sie die Grenze zwischen Luxemburg und Deutschland. Bald danach erreicht sie Trier. Das deutsche Moseltal wird geprägt vom stark mäandernden Verlauf mit vielen Weinbergen an teils sehr steilen Hängen. In Koblenz mündet die Mosel in den Mittelrhein.
+Der Fluss wurde von seinen Anliegerstaaten ab 1958 bis Neuves-Maisons im Rahmen der Moselkanalisierung kanalisiert und damit zur Großschifffahrtsstraße ausgebaut. Die Mosel gehört von der deutsch-französischen Grenze bis zur Mündung zur Wasserstraßenklasse Vb. Die Bewohner an der Mosel nennen sich Moselaner.]]></string>
+    <string name="rl6_field3">mosel_fluss</string>
 
-    <string name="rl7_field1"></string>
-    <string name="rl7_field2"><![CDATA[]]></string>
-    <string name="rl7_field3"></string>
+    <string name="rl7_field1">Neckar - Fluss</string>
+    <string name="rl7_field2"><![CDATA[Der Neckar ist ein Nebenfluss des Rheins in Deutschland von 362 km Länge – mit dem längeren Oberlauf Eschach sogar von 380 km – der mit seinem annähernd 14.000 km² großen Einzugsgebiet den zentralen Teil Baden-Württembergs entwässert. An seiner Mündung fließen im Mittel 145 m³/s ab. Hydrologisch ist der Neckar damit nach Aare, Maas, Mosel und Main der fünftgrößte Nebenfluss des Rheins und nach Länge wie auch nach Wasserführung der zwölftgrößte Fluss Deutschlands.
+Der Neckar entspringt auf der Baar bei Villingen-Schwenningen auf 705 m ü. NN. Zunächst fließt er zwischen Schwarzwald und Schwäbischer Alb nach Nordosten, ab dem „Neckarknie“ bei Plochingen nordwestwärts bis nordwärts durch die Ballungsräume von Stuttgart und Heilbronn, dann ab Eberbach im Odenwald westwärts bis Heidelberg und schließlich in der Oberrheinischen Tiefebene nordwestwärts bis Mannheim. Hier ♁⊙ mündet er auf 88 m Meereshöhe in den Rhein. Seine drei größten Nebenflüsse sind die Enz, der Kocher und die Jagst.
+Der Neckar ist von Plochingen abwärts mittels Stauhaltungen zum Großschifffahrtsweg (Bundeswasserstraße) ausgebaut mit bedeutenden Häfen in Stuttgart, Heilbronn und Mannheim.
+Durch Begradigungen, Eindeichungen und anderes haben die Gewässerstruktur und die Fließdynamik des vormaligen Naturflusses sehr gelitten und die strukturreichen Auenlandschaften sind oft verschwunden. Inzwischen wurden einige Altwasserabschnitte (Altneckar) renaturiert, die Wasserqualität hat sich seit den 1970er Jahren erheblich verbessert.
+Der Neckar fließt fast nur durch Baden-Württemberg. Allein im Odenwald bei Neckarsteinach und bei Hirschhorn ist er abschnittsweise Grenzfluss zu Hessen. Der Stadtteil Ersheim von Hirschhorn, in einer engen nördlichen Neckarschlinge gelegen, und ein flussabwärtiger Abschnitt des linken Ufers sind die einzigen Landesteile Hessens südlich des Neckars.]]></string>
+    <string name="rl7_field3">neckar_fluss</string>
 
-    <string name="rl8_field1"></string>
-    <string name="rl8_field2"><![CDATA[]]></string>
-    <string name="rl8_field3"></string>
+    <string name="rl8_field1">Rhein - Fluss</string>
+    <string name="rl8_field2"><![CDATA[Der Rhein (französisch Rhin, italienisch Reno, rätoromanisch Rain oder Rein?/i, niederländisch Rijn) ist ein Strom in West- und Mitteleuropa. Sein Quellgebiet liegt überwiegend im Schweizer Kanton Graubünden, seine Mündungsarme erreichen in den Niederlanden die Nordsee. Das Einzugsgebiet hat Anteil an neun Staaten, sein größter Flächenanteil liegt in Deutschland, gefolgt von den Anteilen der Schweiz, Frankreichs, Österreichs und der Niederlande. Die fünf in der Länge, im Einzugsgebiet, sowie im Mittleren Abfluss (MQ) führenden Nebenflüsse sind in Fließrichtung die Aare, der Neckar, der Main, die Mosel und die Maas. Der Rhein ist der wasserreichste Nordseezufluss und eine der verkehrsreichsten Wasserstraßen der Welt.
+Der Strom steht mit seinen 1.232,7 km jedoch in der Längenrangfolge der europäischen Flüsse erst an 7. Stelle, sofern man den Vergleich auf selbst ins Meer mündende Flüsse beschränkt, und wird unter Berücksichtigung von drei längeren Nebenflüssen der Wolga sogar auf die 10. Stelle verdrängt. Unter den Flüssen, die den deutschen Sprachraum berühren, liegt er jedoch hinter der insgesamt doppelt so langen Donau und vor der Elbe auf dem zweiten Platz. Der Lauf des Rheins wird nacheinander meist in die Hauptabschnitte Vorderrhein, Hinterrhein, Alpenrhein, Hochrhein (mit Bodensee inkl. Seerhein), Oberrhein, Mittelrhein und Niederrhein eingeteilt. Vom letzten gliedert man manchmal noch einen untersten Abschnitt Deltarhein aus.]]></string>
+    <string name="rl8_field3">rhein</string>
 
-    <string name="rl9_field1"></string>
-    <string name="rl9_field2"><![CDATA[]]></string>
-    <string name="rl9_field3"></string>
+    <string name="rl9_field1">Steinhuder Meer - See</string>
+    <string name="rl9_field2"><![CDATA[
+Das Steinhuder Meer in Niedersachsen ist mit einer Fläche von 29,1 km² der größte See Nordwestdeutschlands. Das maximal 2,9 m und durchschnittlich 1,35 m tiefe Gewässer bildete sich in einem Becken gegen Ende der letzten Eiszeit vor etwa 14.000 Jahren. Heute stellt der etwa 30 km nordwestlich von Hannover gelegene See als Zentrum des Naturparks Steinhuder Meer wegen seiner geschützten Naturbereiche und vielfältigen Erholungsmöglichkeiten ein überregionales Ausflugsziel dar. Er liegt im Flusssystem der Weser.]]></string>
+    <string name="rl9_field3">steinhuder_meer</string>
 
-    <string name="rl10_field1"></string>
-    <string name="rl10_field2"><![CDATA[]]></string>
-    <string name="rl10_field3"></string>
+    <string name="rl10_field1">Weser - Fluss</string>
+    <string name="rl10_field2"><![CDATA[Die Weser (Niederdeutsch Werser oder Wersern; lat. Bisurgis, Visurgis; Ahd. Wisera, Wisura) ist ein Strom, der in nördlicher Richtung die Mittelgebirgsschwelle und das norddeutsche Tiefland durchfließt. Seinen Namen trägt er ab Hann. Münden, wo sich seine beiden großen Quellflüsse, Werra und Fulda, vereinigen.
+Die gemeinsame Herkunft der Flussnamen Weser und Werra weist darauf hin, dass die heutige Werra einst als Oberlauf der Weser galt, die größere, aber kürzere Fulda dagegen nur als Nebenfluss. Die Trennung der Namen Weser und Werra entstand erst im Frühneuhochdeutschen. Auch in der hydrografischen Erfassung ist die Werra als der Oberlauf klassifiziert und die Fulda als großer Nebenfluss. Die Fulda ist zwar am Zusammenfluss wasserreicher als die Werra, aber ihrerseits oberhalb der nur 45 Flusskilometer entfernten Mündung ihres Nebenflusses Eder nicht so wasserreich und lang wie diese (und mithin nicht einmal halb so stark wie in Hann. Münden). Die Weser ist der einzige Strom Deutschlands mit ausschließlich inländischem Einzugsgebiet. Sie berührt die Bundesländer Hessen, Nordrhein-Westfalen, Niedersachsen und Bremen. Anteil an ihrem etwa 46.000 km² umfassenden Einzugsgebiet (rund 13 % der Fläche Deutschlands) haben außerdem Thüringen, Sachsen-Anhalt und in geringem Maße Bayern. Die Weser ist in ganzer Länge eine Bundeswasserstraße.
+An der Mündung in die Nordsee gibt es zwei unterschiedliche Grenzlinien: Die (flussabwärts laufende) nautische Kilometrierung der Unterweser endet am Alten Leuchtturm in Bremerhaven. Die flussaufwärts laufende hydrografische Stationierung hingegen bezieht Teile der Außenweser mit ein und hat ihren Nullpunkt an der Luftlinie zwischen Langwarden in Butjadingen und dem Land Wursten bei Nordholz. Der Alte Leuchtturm steht danach bei Kilometer 18,2.]]></string>
+    <string name="rl10_field3">weser</string>
 
 
     <!-- Attractions Content -->
@@ -108,7 +155,7 @@ Heute wird das Tor vor allem als Symbol des freiheitlich-demokratischen, wiederv
     <string name="att1_field3">brandenburger_tor</string>
 
     <string name="att2_field1">Elbphilharmonie - Hamburg</string>
-    <string name="att2_field2"><![CDATA[Die Elbphilharmonie (kurz auch „Elphi“ oder „Elbphi“ genannt)[1][2][3] ist ein im November 2016 fertiggestelltes Konzerthaus in Hamburg. Sie wurde mit dem Ziel geplant, ein neues Wahrzeichen der Stadt und ein „Kulturdenkmal für alle“ zu schaffen.[4][5][6] Das 110 Meter hohe Gebäude im Stadtteil HafenCity liegt am rechten Ufer der Norderelbe an der Spitze des Großen Grasbrooks zwischen den Mündungen der Hafenbecken Sandtorhafen und Grasbrookhafen. Es wurde unter Einbeziehung der Hülle des früheren Kaispeichers A (Baujahr 1963) errichtet. Auf diesen Sockel wurde ein moderner Aufbau mit einer Glasfassade gesetzt, die an Segel, Wasserwellen oder einen Quarzkristall erinnert. Die Lage am Kaiserhöft ist von der einstigen industriellen Hafennutzung und der neugotischen Backsteinarchitektur der Speicherstadt geprägt.
+    <string name="att2_field2"><![CDATA[Die Elbphilharmonie (kurz auch „Elphi“ oder „Elbphi“ genannt) ist ein im November 2016 fertiggestelltes Konzerthaus in Hamburg. Sie wurde mit dem Ziel geplant, ein neues Wahrzeichen der Stadt und ein „Kulturdenkmal für alle“ zu schaffen.[4][5][6] Das 110 Meter hohe Gebäude im Stadtteil HafenCity liegt am rechten Ufer der Norderelbe an der Spitze des Großen Grasbrooks zwischen den Mündungen der Hafenbecken Sandtorhafen und Grasbrookhafen. Es wurde unter Einbeziehung der Hülle des früheren Kaispeichers A (Baujahr 1963) errichtet. Auf diesen Sockel wurde ein moderner Aufbau mit einer Glasfassade gesetzt, die an Segel, Wasserwellen oder einen Quarzkristall erinnert. Die Lage am Kaiserhöft ist von der einstigen industriellen Hafennutzung und der neugotischen Backsteinarchitektur der Speicherstadt geprägt.
 Das Konzept des Konzerthauses geht auf eine Idee des Hamburger Projektentwicklers Alexander Gérard zurück. Der Bau wurde dann 2007 durch die Bürgerschaft unter Bürgermeister Ole von Beust beschlossen. Entwurf und Planung der Philharmonie stammen im Wesentlichen vom Architekturbüro Herzog & de Meuron. Bauherr war die Elbphilharmonie Bau KG, deren Kommanditist und Hauptfinanzier die Freie und Hansestadt Hamburg mit Steuermitteln ist. Das Gebäude wurde in ihrem Auftrag vom Baudienstleister Hochtief errichtet.
 Die Fertigstellung des Gebäudes war nach einem mehrjährigen Vorlauf für das Jahr 2010 vorgesehen, verzögerte sich jedoch mehrfach, u. a. auch bedingt durch einen anderthalbjährigen Baustopp im öffentlichen Bereich. Erst nach einer umfangreichen Projektneuordnung zwischen den Architekten, dem Bauherren und der Baufirma kurz nach der Wahl des Bürgermeisters Olaf Scholz, wurde nach dem Baustopp weitergebaut. Durch die Verzögerungen am Bau und die Überschreitung der ursprünglich veranschlagten Baukosten (die Baukosten betrugen am Ende etwas mehr als das 11,24-fache der mit ursprünglich 77 Millionen Euro geplanten Summe) wurde die Elbphilharmonie bereits lange vor der Fertigstellung bundesweit bekannt.[7] Der im neuen Vertrag vereinbarte Termin für die Bau- und Schlüsselübergabe am 31. Oktober 2016 wurde eingehalten.[8] Die Einweihung des Konzertbereichs wurde am 11. und 12. Januar 2017 mit dem Konzert „Zum Raum wird hier die Zeit“ des NDR Elbphilharmonie Orchesters gefeiert (Konzertprogramm).[9][10] Der Kleine Saal wurde am 12. Januar 2017 vom Ensemble Resonanz eingeweiht. Im ersten Jahr nach der Eröffnung besuchten rund 850.000 Menschen die über 600 Konzerte in der Elbphilharmonie, über 4,5 Millionen Besucher pilgerten auf die Plaza, mehr als 70.000 Menschen nahmen an Konzerthausführungen und über 60.000 am Musikvermittlungsprogramm des Hauses teil.]]></string>
     <string name="att2_field3">elbphilharmonie</string>
@@ -131,77 +178,99 @@ Am 30. Oktober 2005 fand in der Frauenkirche ein Weihegottesdienst und Festakt s
 Der Kölner Dom ist mit 157,38 Metern Höhe nach dem Ulmer Münster das zweithöchste Kirchengebäude Europas sowie das dritthöchste der Welt. Der Kölner Dom steht rund 250 Meter vom Rhein entfernt an der ehemaligen nördlichen römischen Stadtgrenze in direkter Nachbarschaft von Hauptbahnhof, Hohenzollernbrücke, Museum Ludwig und Römisch-Germanischem Museum. Er ist auf dem Domhügel rund 17 m über dem Rhein von einer modernen Betonkonstruktion, der Domplatte, umgeben. Seine Adresse ist Domkloster 4, 50667 Köln.
 Der Kölner Dom ist eine der größten Kirchen im gotischen Baustil. In ihm sehen viele Kunsthistoriker eine einmalige Harmonisierung sämtlicher Bauelemente und des Schmuckwerks im Stil der spätmittelalterlich-gotischen Architektur verwirklicht. Wichtig zum Verständnis ist, dass der Kölner Dom zwar im 13. Jahrhundert (Gotik) begonnen, aber erst nach jahrhundertelangem Baustopp im 19. Jahrhundert (Neugotik) vollendet wurde. Daher ist seine Westfassade, die charakteristische Doppelturmfront, weitgehend im industrialisierten 19. Jahrhundert gebaut worden, jedoch nach mittelalterlichen Plänen, die 1814/1816 wiedergefunden wurden. Die mittelalterliche Gotik hat nur zwei bedeutende Kirchtürme dieser durchbrochenen Bauart hervorgebracht: Straßburg und Freiburg. Alle anderen ähnlichen Türme wie beispielsweise in Ulm oder Regensburg sind Werke der Neugotik des 19. Jahrhunderts.
 Die Westfassade mit den beiden Türmen ist über 7100 m² groß und ist die größte Doppelturmfassade der Welt. Der Kölner Dom war von 1880 bis 1884 das höchste Gebäude der Welt. Er ist zudem die meistbesuchte Sehenswürdigkeit Deutschlands: das Domkapitel gibt 20.000 bis 30.000 Besucher pro Tag an, das entspricht sieben bis acht Millionen Besuchern jährlich. Im August 2005 besuchte ihn Papst Benedikt XVI. zum Weltjugendtag 2005. Daran erinnert im Mittelschiff eine vom Kölner Bildhauer Heribert Calleen gestaltete bronzene Gedenktafel.]]></string>
-    <string name="att5_field3"></string>
+    <string name="att5_field3">koeln_dom</string>
 
     <string name="att6_field1">Miniatur Wunderland - Hamburg</string>
     <string name="att6_field2"><![CDATA[Das Miniatur Wunderland in Hamburg ist die größte Modelleisenbahnanlage der Welt.
 Sie befindet sich in der historischen Speicherstadt und wird von der Miniatur Wunderland Hamburg GmbH betrieben. Auf der 1490 Quadratmeter großen Anlagenfläche liegen insgesamt 15,4 Kilometer Gleise (Stand Oktober 2016) im Maßstab 1:87 (Nenngröße H0; entspräche in der Realität etwa 1340 Kilometer Gleise), auf denen rund 1040 digital gesteuerte Züge verkehren.]]></string>
-    <string name="att6_field3"></string>
+    <string name="att6_field3">miniatur_wunderland</string>
 
     <string name="att7_field1">Nationalpark Sächsische Schweiz - Freistaat Sachsen</string>
     <string name="att7_field2"><![CDATA[Der Nationalpark Sächsische Schweiz ist ein deutscher Nationalpark. Er erstreckt sich auf einer Fläche von 93,5 km² über die rechtselbischen Kerngebiete des Elbsandsteingebirges im Freistaat Sachsen. Gegründet wurde der Nationalpark am 1. Oktober 1990 im Rahmen des Nationalparkprogramms der DDR.
 Zusammen mit dem umliegenden, 1956 gegründeten Landschaftsschutzgebiet bildet der Nationalpark die Nationalparkregion Sächsische Schweiz. Im benachbarten Tschechien setzt sich das Schutzgebiet im Nationalpark Böhmische Schweiz fort.
 Der Nationalpark Sächsische Schweiz ist eine der wichtigsten Attraktionen im Elbsandsteingebirge: Mit jährlich 1,7 Millionen Besuchern erwirtschaftet der Tourismus in der Nationalparkregion so viel, dass damit rechnerisch der Lebensunterhalt von 1.878 Personen gesichert ist.]]></string>
-    <string name="att7_field3"></string>
+    <string name="att7_field3">saechsische_schweiz</string>
 
     <string name="att8_field1">Pergamonmuseum - Berlin</string>
     <string name="att8_field2"><![CDATA[Das Pergamonmuseum ist Teil des Museumsensembles auf der Berliner Museumsinsel.
 Das Gebäude wurde seit 1907 von Alfred Messel aufgrund eines Konzepts von Wilhelm von Bode geplant, zwischen 1910 und 1930 nach Plänen von Alfred Messel und Ludwig Hoffmann für den von Carl Humann entdeckten Pergamonaltar, die Sammlung deutscher Kunst der Gemälde- und Skulpturengalerie (das sogenannte „Deutsche Museum“), die Vorderasiatische Abteilung mit hethitischen, sumerischen, assyrischen, babylonischen und persischen Kunstwerken sowie die Islamische Kunst-Abteilung (u. a. mit der Mschatta-Fassade) erbaut.
 Aktuell beherbergt das Pergamonmuseum Teile der Antikensammlung, das Vorderasiatische Museum und das Museum für Islamische Kunst. Das Pergamonmuseum war 2007 mit etwa 1.135.000 Besuchern das meistbesuchte Berliner Museum und das am besten besuchte deutsche Kunstmuseum. Abgesehen von 2004 war es seit 1999 jeweils das meistbesuchte Berliner Museum.
 Aufgrund umfangreicher Sanierungsarbeiten wurde der Saal mit dem Pergamonaltar am 29. September 2014 bis voraussichtlich 2023 geschlossen,[1] Teile des Museums bleiben aber geöffnet.]]></string>
-    <string name="att8_field3"></string>
+    <string name="att8_field3">pergamon_museum</string>
 
     <string name="att9_field1">Schloss Neuschwanstein - Bayern</string>
     <string name="att9_field2"><![CDATA[
 Das Schloss Neuschwanstein steht oberhalb von Hohenschwangau bei Füssen im südlichen Bayern. Der Bau wurde ab 1869 für den bayerischen König Ludwig II. als idealisierte Vorstellung einer Ritterburg aus der Zeit des Mittelalters errichtet. Die Entwürfe stammen von Christian Jank, die Ausführung übernahmen Eduard Riedel und Georg von Dollmann. Der König lebte nur wenige Monate im Schloss, er starb noch vor der Fertigstellung der Anlage. Neuschwanstein wurde ursprünglich als Neue Burg Hohenschwangau bezeichnet, seinen heutigen Namen trägt es seit 1886. Eigentümer des Schlosses ist der Freistaat Bayern; es wird von der Bayerischen Verwaltung der staatlichen Schlösser, Gärten und Seen betreut und bewirtschaftet.
 Neuschwanstein ist das berühmteste der Schlösser Ludwigs II. und eine der bekanntesten Sehenswürdigkeiten Deutschlands. Es wird jährlich von etwa 1,5 Millionen Touristen besucht. Das oftmals als „Märchenschloss“ bezeichnete Neuschwanstein kann besichtigt werden und ist nahezu ganzjährig für Besucher geöffnet. Die Architektur und Innenausstattung sind vom romantischen Eklektizismus des 19. Jahrhunderts geprägt; das Schloss gilt als ein Hauptwerk des Historismus. Eine Aufnahme der „Ludwig-Schlösser“ Neuschwanstein, Linderhof und Herrenchiemsee in die Liste des Weltkulturerbes der UNESCO wird angestrebt.]]></string>
-    <string name="att9_field3"></string>
+    <string name="att9_field3">schloss_neuschwanstein</string>
 
     <string name="att10_field1">Zoologische Garten - Berlin</string>
     <string name="att10_field2"><![CDATA[Der Zoologische Garten Berlin im Berliner Ortsteil Tiergarten (Bezirk Mitte) ist der älteste Zoo Deutschlands und neben dem Tierpark Friedrichsfelde einer der beiden Zoologischen Gärten Berlins. Im Zentrum Berlins sind auf einer 33 Hektar großen Fläche 20.200 Tiere aus rund 1400 Arten zu sehen, darunter befinden sich neben Exoten vom Aussterben bedrohte Tierarten.
 Neben dem Zoo Berlin liegt das Schauaquarium[3] in dem auf drei Etagen Fische, Reptilien, Amphibien sowie Wirbellose wie Insekten zu sehen sind. Mit dem angeschlossenen Aquarium gehört der Zoo Berlin zu den meistbesuchten Sehenswürdigkeiten Berlins. 3,3 Millionen Menschen besuchten im Jahr 2015 den Berliner Zoo einschließlich Aquarium.
 Der Zoo ist Namensgeber des Bahnhofs Zoologischer Garten, der sich am Hardenbergplatz gegenüber dem Zoo-Verwaltungsgebäude und dem Löwentor befindet.]]></string>
-    <string name="att10_field3"></string>
+    <string name="att10_field3">zoologischer_berlin</string>
 
 
     <!-- Parks Content -->
-    <string name="park1_field1"></string>
-    <string name="park1_field2"><![CDATA[]]></string>
-    <string name="park1_field3"></string>
+    <string name="park1_field1">Belantis - Leipzig</string>
+    <string name="park1_field2"><![CDATA[Belantis (eigene Schreibweise: „BELANTIS“) ist der größte Freizeitpark in Ostdeutschland. Er liegt in Sachsen, südlich von Leipzig auf den Gemarkungen der Städte Zwenkau und Leipzig, direkt an der Autobahn 38 mit eigener Abfahrt „Leipzig-Neue Harth“. Auf den 27 Hektar Fläche des ehemaligen Braunkohletagebaus Zwenkau verteilen sich über 60 Attraktionen und Shows auf acht Themenwelten.]]></string>
+    <string name="park1_field3">belantis_leipzig</string>
 
-    <string name="park2_field1"></string>
-    <string name="park2_field2"><![CDATA[]]></string>
-    <string name="park2_field3"></string>
+    <string name="park2_field1">Erlebnispark Tripsdrill - Cleebronn</string>
+    <string name="park2_field2"><![CDATA[Der Erlebnispark Tripsdrill ist ein Freizeitpark im Weiler Treffentrill bei Cleebronn in Baden-Württemberg. Angeschlossen ist ein Wildpark. Auf einer Fläche von 77 Hektar sind etwa 100 Attraktionen, zoologische Anlagen und Museen zu finden. Tripsdrill gilt als der erste Freizeitpark Deutschlands und beging 2009 sein 80-jähriges Jubiläum. Der Park hat rund 150 Beschäftigte und empfängt jährlich etwa 730.000 Besucher.
+Der Park hat durchgängig das Thema Schwaben anno 1880. Beispielsweise gibt es die Attraktionen „Badewannen-Fahrt zum Jungbrunnen“, die Katapult-Achterbahn „Karacho“ oder den „Höhenflug“.]]></string>
+    <string name="park2_field3">erlebnispark_tripsdrill</string>
 
-    <string name="park3_field1"></string>
-    <string name="park3_field2"><![CDATA[]]></string>
-    <string name="park3_field3"></string>
+    <string name="park3_field1">Europa Park - Rust </string>
+    <string name="park3_field2"><![CDATA[Der Europa-Park ist ein Freizeit- und Themenpark in Rust, Baden-Württemberg. Mit rund 5,6 Millionen Besuchern im Jahr 2017 ist er der am meisten besuchte Freizeitpark im deutschsprachigen Raum.
+Laut AECOM-Theme-Index 2014 gehört der Europa-Park zu den 25 besucherstärksten Freizeitparks der Welt, und ist nach dem Disneyland Paris der zweitbesucherstärkste Freizeitpark Europas, sowie der besucherstärkste saisonale Freizeitpark der Welt. Die „Golden Ticket Award“-Jury der US-Zeitschrift „Amusement Today“ wählte im September 2017 zum vierten Mal in Folge den Europa-Park zum besten Freizeitpark der Welt.
+Auf einer Gesamtfläche von rund 950.000 m² werden in 18 Themenbereichen[5] über hundert Fahrgeschäfte und mehrere Shows geboten. Zum Park gehören fünf Hotels (El Andaluz, Santa Isabel, Castillo Alcazar, Colosseo und Bell Rock), ein Campingplatz und ein Kino.]]></string>
+    <string name="park3_field3">europa_park</string>
 
-    <string name="park4_field1"></string>
-    <string name="park4_field2"><![CDATA[]]></string>
-    <string name="park4_field3"></string>
+    <string name="park4_field1">Hansa - Park - Sierksdorf an der Ostsee</string>
+    <string name="park4_field2"><![CDATA[Der Hansa-Park (eigene Schreibweise: „HANSA-PARK“) ist ein saisonaler Freizeitpark in Sierksdorf (Schleswig-Holstein) an der Ostsee. Der Park ist im Besitz der Familie Leicht und wird von Christoph Andreas Leicht (* 1962)[2] geführt. Der Park umfasst heute 460.000 m² mit - nach eigener Aussage - mehr als 125 Attraktionen und konnte 2016 1,4 Millionen Gäste begrüßen. Er zählt damit zu den fünf größten deutschen Freizeitparks.]]></string>
+    <string name="park4_field3">hansa_park</string>
 
-    <string name="park5_field1"></string>
-    <string name="park5_field2"><![CDATA[]]></string>
-    <string name="park5_field3"></string>
+    <string name="park5_field1">Heide Park - Soltau</string>
+    <string name="park5_field2"><![CDATA[Das Heide Park Resort in Soltau (Niedersachsen) ist mit 850.000 m² der zweitgrößte deutsche Freizeit- und Themenpark.
+Der Park ist Teil der britischen Merlin Entertainments Group, zu der diverse Freizeiteinrichtungen wie Alton Towers, Gardaland, Legoland, Sea Life oder auch die Wachsfigurenkabinette Madame Tussauds gehören. Geschäftsführer des Heide Parks sind Sabrina de Carvalho, Peter Dunn und Matthew Paul Jowett.]]></string>
+    <string name="park5_field3">heidepark</string>
 
-    <string name="park6_field1"></string>
-    <string name="park6_field2"><![CDATA[]]></string>
-    <string name="park6_field3"></string>
+    <string name="park6_field1">Holiday Park - Haßloch</string>
+    <string name="park6_field2"><![CDATA[Der Holiday Park ist ein Freizeitpark in Haßloch (Rheinland-Pfalz), der seit 1971 existiert und im November 2010 von der belgischen Themenpark-Gruppe Plopsa übernommen wurde.
 
-    <string name="park7_field1"></string>
-    <string name="park7_field2"><![CDATA[]]></string>
-    <string name="park7_field3"></string>
+Im Park wurde der erste Freifallturm („Free Fall Tower“) und der erste Rapid River Ride („Donnerfluss“) Deutschlands errichtet. Bekannteste Attraktion des Parks dürfte seit 2001, vor allem durch das überregionale Medien-Echo, die Achterbahn „Expedition GeForce“ sein.
+Mit dem Verkauf des Freizeitparks an die belgische Unternehmensgruppe Studio 100 wurde der Holiday Park zu einem Themenpark mit einzelnen, zusammenhängenden Themengebieten umgestaltet.[4] Unter dem Titel „Majaland“ entstand so bis zum Sommer 2012 auf dem Platz des ursprünglichen Ein- und Ausgangs ein neuer Parkbereich mit elf Attraktionen. Im Zuge dessen wurde ein neuer Ein- und Ausgangsbereich auf dem früheren Platz des „Tanzenden Pavillons“ und des „Ballon Race“ erbaut. Zum Jahr 2016 wurde die Sanierung des Parkplatzes abgeschlossen.
+Das ursprüngliche Parkmaskottchen ist ein Papagei mit dem Namen Holly. Durch den Kauf des Holiday Parks von Studio 100 wurden als weitere Maskottchen die Biene Maja, Wickie und Tabaluga eingeführt.]]></string>
+    <string name="park6_field3">holiday_park</string>
 
-    <string name="park8_field1"></string>
-    <string name="park8_field2"><![CDATA[]]></string>
-    <string name="park8_field3"></string>
+    <string name="park7_field1"><![CDATA[Legoland - Günzburg]]></string>
+    <string name="park7_field2"><![CDATA[Legoland Deutschland ist ein Legoland- Park in Günzburg in Süddeutschland, etwa in der Mitte von München nach Stuttgart, die 2002 eröffnet wurde. Es ist 43,5 Hektar groß und es ist einer der vier beliebtesten Themenparks in Deutschland . Das Miniland enthält Lego-Reproduktionen verschiedener deutscher Städte und Landschaften.
 
-    <string name="park9_field1"></string>
-    <string name="park9_field2"><![CDATA[]]></string>
-    <string name="park9_field3"></string>
+Legoland ist der Name von sieben Freizeitparks, die sich thematisch an Lego-Spielzeug orientieren. In den Parks sind mit Legosteinen nachgebildete Wahrzeichen aus aller Welt zu sehen. Auch die Fahrgeschäfte wurden im Stil der Legosteine gebaut. Seit 2005 gehören die Legoland-Parks der Merlin Entertainments Group.
 
-    <string name="park10_field1"></string>
-    <string name="park10_field2"><![CDATA[]]></string>
-    <string name="park10_field3"></string>
+]]></string>
+    <string name="park7_field3">legoland_germany</string>
+
+    <string name="park8_field1">Movie Park Germany - Bottrop - Kirchhellen</string>
+    <string name="park8_field2"><![CDATA[Der Movie Park Germany bei Bottrop-Kirchhellen ist ein saisonaler Freizeitpark mit Schwerpunkt auf dem Thema Film. Neben auf Filmen basierenden Fahrgeschäften und Shows in sieben Themenbereichen gibt es Studios, in denen Fernseh- und Kinoproduktionen gedreht wurden. Der Park hat eine Gesamtfläche von rund 40 Hektar.]]></string>
+    <string name="park8_field3">movie_park_germany</string>
+
+    <string name="park9_field1"><![CDATA[Phantasialand - Brühl bei Köln]]></string>
+    <string name="park9_field2"><![CDATA[Das Phantasialand ist ein Freizeitpark in Brühl bei Köln, Nordrhein-Westfalen. Mit knapp zwei Millionen Besuchern im Jahr 2016 ist er der am zweithäufigsten besuchte Freizeitpark Deutschlands und einer der 15 besucherstärksten saisonalen Freizeitparks in Europa.[1] In sechs Themenbereichen bietet das Phantasialand seinen Besuchern zahlreiche Fahrgeschäfte und Shows. Die reguläre Saison dauert von Ende März bis Anfang November; in den Wintermonaten öffnet der Park für einige Wochen mit einem speziellen Winterprogramm.
+Mit einer Betriebsfläche von ungefähr 28 Hektar, von denen der eigentliche Park (ohne Parkplätze und Hotels) etwa 12 Hektar belegt, gehört das Phantasialand flächenmäßig zu den kleineren Themenparks. Eine verdichtete Bauweise mit teilweise ineinander verflochtenen Attraktionen sowie ein vergleichsweise häufiger Abriss alter Attraktionen zugunsten neuer sind daher charakteristisch für den Park. Dem Phantasialand angegliedert sind zwei Themenhotels sowie Veranstaltungs- und Konferenzräume.]]></string>
+    <string name="park9_field3">phantasialand</string>
+
+    <string name="park10_field1">Tropical Islands - brandenburgischen Landkreis</string>
+    <string name="park10_field2"><![CDATA[Tropical Islands (deutsch: Tropische Inseln; abgekürzt TI) ist ein tropischer Freizeitpark in den Gemeinden Halbe und Krausnick-Groß Wasserburg im brandenburgischen Landkreis Dahme-Spreewald, Deutschland. Er befindet sich seit 2004 in der im Jahr 2000 fertiggestellten ehemaligen Cargolifter-Werfthalle, die als größte freitragende Halle der Welt gilt.
+Die Maximalauslastung beträgt 6.000 Besucher pro Tag. Im Jahr 2014 hatte Tropical Island etwa 910.000 Besucher, 2017 etwa 1,1 Millionen. Rund 600 Menschen sind im Tropical Islands beschäftigt. Betreiber von Tropical Islands ist die Tanjong-Gruppe aus Malaysia]]></string>
+    <string name="park10_field3">tropical_islands</string>
+
+    <string name="german_info"><![CDATA[Deutschland ([ˈdɔʏtʃlant]; Vollform: Bundesrepublik Deutschland) ist ein Bundesstaat in Mitteleuropa. Er besteht aus 16 Ländern und ist als freiheitlich-demokratischerund sozialer Rechtsstaat verfasst. Die Bundesrepublik Deutschland stellt die jüngste Ausprägung des deutschen Nationalstaates dar. Deutschland hat über  82,5 Millionen Einwohner und zählt mit 231 Einwohnern pro km² zu den dicht besiedelten Flächenstaaten.
+An Deutschland grenzen neun Staaten, die Nord- und Ostsee im Norden und die Alpen im Süden. Es liegt in der gemäßigten Klimazone und verfügt über sechzehn National-und über hundert Naturparks. Bundeshauptstadt sowie bevölkerungsreichste deutsche Stadt ist Berlin. Weitere Metropolen mit mehr als einer Million Einwohnern sind Hamburg, München und Köln, der größte Ballungsraum ist das Ruhrgebiet, Frankfurt als deutsches Finanzzentrum ist international von Bedeutung. Deutschland gilt international als das Land mit der zweithöchsten Zahl von Einwanderern nach den Vereinigten Staaten. Seine Bevölkerung ist die zweitälteste und hat mit 1,59 Kindern pro Frau (2016) eine der niedrigeren Geburtenraten im weltweiten Vergleich, liegt aber unter den EU-Staaten aufgrund eines kontinuierlichen Anstiegs in den 2010er-Jahren mittlerweile im Mittelfeld.
+Auf dem Gebiet des heutigen Deutschlands sind etwa 500.000 Jahre alte frühe Siedlungen durch Funde des Homo heidelbergensis, des Neandertalers sowie einiger der ältesten Kunstwerke der Menschheit aus der Altsteinzeit nachgewiesen. Seit der Antike ist die lateinische Bezeichnung Germania für das Siedlungsgebiet der Germanenbekannt, seit dem 4. Jahrhundert ist der Begriff deutsch in althochdeutscher Form belegt. Das ab dem 10. Jahrhundert bestehende Heilige Römische Reich, das aus vielen Herrschaftsgebieten bestand, war wie der 1815 ins Leben gerufene Deutsche Bund ein Vorläufer des deutschen Nationalstaates, des 1871 gegründeten Deutschen Reichs, das sich rasch vom Agrar- zum Industriestaat entwickelte.
+Nach dem verlorenen Ersten Weltkrieg kam es 1918 zur Bildung der demokratischen Weimarer Republik. Die nationalsozialistische Diktatur ab 1933 mit politischer und rassistischer Verfolgung und der Ermordung von sechs Millionen Juden begann den verheerenden Zweiten Weltkrieg, der 1945 in Deutschlands Niederlage endete. Das von den Siegermächten besetzte Land wurde 1949 geteilt. Der Gründung der Bundesrepublik als demokratischer westdeutscher Teilstaat mit Westbindung am 24. Mai 1949 folgte die Gründung der sozialistischen DDR am 7. Oktober 1949 als ostdeutscher Teilstaat unter sowjetischer Hegemonie. Die innerdeutsche Grenze war nach dem Mauerbau 1961 abgeriegelt. Nach der friedlichen Revolution in der DDR 1989 folgte die Lösung der deutschen Frage durch die Wiedervereinigung beider Landesteile am 3. Oktober 1990.
+Deutschland ist Gründungsmitglied der Europäischen Union sowie deren bevölkerungsreichstes Land. Mit 18 anderen EU-Mitgliedstaaten bildet es eine Währungsunion, die Eurozone. Es ist Mitglied der UN, der OECD, der OSZE, der NATO, der G7, der G20 und des Europarates. Die Bundesrepublik Deutschland gilt als einer der politisch einflussreichsten Staaten Europas und ist ein gesuchtes Partnerland auf globaler Ebene.
+Gemessen am Bruttoinlandsprodukt ist das marktwirtschaftlich organisierte Deutschland die größte Volkswirtschaft Europas und die viertgrößte der Welt.[4] 2016 war es die drittgrößte Export- und Importnation. Aufgrund der Rohstoffarmut und der Automatisierung der Industrie entwickelt sich das Land, das auf die Qualität seines Bildungssystems angewiesen ist, zunehmend zur Informations- und Wissensgesellschaft. Gemäß dem Index der menschlichen Entwicklung zählt Deutschland zu den sehr hoch entwickelten Ländern.
+Die deutsche Sprache ist die meistgesprochene Muttersprache in Europa, daneben gibt es Regional- und Minderheitensprachen und eine große Zahl von Migranten mit anderer Muttersprache. Zur Kultur Deutschlands zählen zahlreiche Ausdrucksformen, darunter das UNESCO-Welterbe in Deutschland sowie Kulturdenkmäler und Altstädte.]]></string>
 </resources>

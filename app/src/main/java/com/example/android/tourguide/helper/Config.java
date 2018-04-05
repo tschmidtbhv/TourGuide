@@ -27,4 +27,6 @@ public interface Config {
     // Resource Types
     String RESOURCESTRING = "string";
     String RESOURCEDRAWABLE = "drawable";
+
+    String LASTITEMPOSITION = "LASTITEMPOSITION";
 }

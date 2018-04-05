@@ -129,17 +129,22 @@ public final class InfoData {
     /**
      * Get String from Resource by name insteed of "int" id
      *
-     * @param aString
-     * @return
+     * @param resourceString The resource as String
+     * @return resource String
      */
-    private String getStringResourceByName(String aString) {
-        int resId = getResourceId(aString, Config.RESOURCESTRING);
+    private String getStringResourceByName(String resourceString) {
+        int resId = getResourceId(resourceString, Config.RESOURCESTRING);
         return mContext.getString(resId);
     }
 
-    private int getResourceId(String aString, String type){
-
-        int resId = mContext.getResources().getIdentifier(aString, type, MainActivity.PACKAGE_NAME);
+    /**
+     * Get the ResourceId for a String
+     * @param resourceString The resource as String
+     * @param type resource type
+     * @return resourceId int
+     */
+    private int getResourceId(String resourceString, String type){
+        int resId = mContext.getResources().getIdentifier(resourceString, type, MainActivity.PACKAGE_NAME);
         return resId;
     }
 
