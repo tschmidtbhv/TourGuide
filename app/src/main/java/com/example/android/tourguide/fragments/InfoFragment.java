@@ -1,14 +1,12 @@
 package com.example.android.tourguide.fragments;
 
 
-import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,8 +17,6 @@ import com.example.android.tourguide.R;
 import com.example.android.tourguide.adapter.InfoAdapter;
 import com.example.android.tourguide.data.Info;
 import com.example.android.tourguide.helper.Config;
-
-import java.util.List;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -42,6 +38,12 @@ public class InfoFragment extends HelperFragment {
         return setUpViews(view);
     }
 
+    /**
+     * Initial Setup
+     *
+     * @param view to inflate
+     * @return View
+     */
     private View setUpViews(View view) {
 
         title = view.findViewById(R.id.infodetailTitle);
@@ -58,7 +60,7 @@ public class InfoFragment extends HelperFragment {
         recyclerView.setLayoutManager(layoutManager);
         infoAdapter = new InfoAdapter(getInfoList());
         recyclerView.setAdapter(infoAdapter);
-        if(!(lastItemPosition > 0))updateInfos(infoAdapter.getInfoItem(0), lastItemPosition);
+        if (!(lastItemPosition > 0)) updateInfos(infoAdapter.getInfoItem(0), lastItemPosition);
         return view;
     }
 
@@ -66,9 +68,11 @@ public class InfoFragment extends HelperFragment {
     public void onViewStateRestored(@Nullable Bundle savedInstanceState) {
         super.onViewStateRestored(savedInstanceState);
 
-        if(savedInstanceState != null){
+        if (savedInstanceState != null) {
+
+            //Get last position and update it with infoItem
             lastItemPosition = savedInstanceState.getInt(Config.LASTITEMPOSITION);
-            updateInfos(infoAdapter.getInfoItem(lastItemPosition),lastItemPosition);
+            updateInfos(infoAdapter.getInfoItem(lastItemPosition), lastItemPosition);
         }
     }
 
@@ -79,6 +83,13 @@ public class InfoFragment extends HelperFragment {
         outState.putInt(Config.LASTITEMPOSITION, lastItemPosition);
     }
 
+    /**
+     * updateInfos called
+     * Set the selected Info content
+     *
+     * @param info     InfoObject
+     * @param position clicked position
+     */
     public void updateInfos(Info info, int position) {
         lastItemPosition = position;
         title.setText(info.getTitle());
