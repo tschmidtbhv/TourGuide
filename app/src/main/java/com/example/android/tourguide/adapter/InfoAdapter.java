@@ -1,7 +1,10 @@
 package com.example.android.tourguide.adapter;
 
+import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.AsyncTask;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,7 +13,6 @@ import android.widget.TextView;
 
 import com.example.android.tourguide.R;
 import com.example.android.tourguide.data.Info;
-import com.example.android.tourguide.helper.InfoData;
 
 import java.util.List;
 
@@ -72,14 +74,44 @@ public class InfoAdapter extends RecyclerView.Adapter<InfoAdapter.ViewHolder> {
     public void onBindViewHolder(ViewHolder holder, int position) {
 
         Info info = infoArrayList.get(position);
+
         holder.title.setText(info.getTitle());
-        Log.v(InfoAdapter.class.getSimpleName(), "onbind: " + info.getImgId());
-        if(info.getImgId() != -1){
-            holder.image.setImageResource(info.getImgId());
+        if (info.getImgId() != -1) {
+            new ImageAsyncTask(holder.image, info.getImgId()).execute(holder);
         }
     }
 
-    public Info getInfoItem(int position){
+    public Info getInfoItem(int position) {
         return infoArrayList.get(position);
+    }
+
+    /**
+     * Inner AsyncTask to load the images
+     * without block system UI
+     * Try to make feeling smoother
+     */
+    public class ImageAsyncTask extends AsyncTask<ViewHolder, Void, Bitmap> {
+
+        private ImageView mImageView;
+        private int mImgId;
+
+        public ImageAsyncTask(ImageView imageView, int imgId) {
+            mImageView = imageView;
+            mImgId = imgId;
+        }
+
+        @Override
+        protected Bitmap doInBackground(ViewHolder... holder) {
+
+            Resources resources = holder[0].itemView.getResources();
+            Bitmap bitmap = BitmapFactory.decodeResource(resources, mImgId);
+
+            return bitmap;
+        }
+
+        @Override
+        protected void onPostExecute(Bitmap bitmap) {
+            mImageView.setImageBitmap(bitmap);
+        }
     }
 }

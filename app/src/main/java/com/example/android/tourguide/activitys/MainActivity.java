@@ -44,10 +44,9 @@ public class MainActivity extends AppCompatActivity implements InfoAdapter.OnInf
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        setUpNavigation();
+        initialSetup();
 
-        fragment = getSupportFragmentManager().findFragmentByTag(FRAGMENTTAG);
-        if(fragment == null){
+        if (fragment == null) {
             setSelectedFragment(R.id.country); //Set the initial fragment
         }
         PACKAGE_NAME = getApplicationContext().getPackageName();
@@ -62,10 +61,13 @@ public class MainActivity extends AppCompatActivity implements InfoAdapter.OnInf
     }
 
     /**
-     * Initial setup for navigation
+     * Initial setup for navigation etc
      */
-    private void setUpNavigation() {
+    private void initialSetup() {
+
         drawerLayout = findViewById(R.id.drawerlayout);
+        fragment = getSupportFragmentManager().findFragmentByTag(FRAGMENTTAG);
+
         NavigationView navigationView = findViewById(R.id.navigationview);
         navigationView.setNavigationItemSelectedListener(navigationItemSelectedListener);
 
@@ -111,9 +113,10 @@ public class MainActivity extends AppCompatActivity implements InfoAdapter.OnInf
     }
 
     /**
-     * Set the fragment
+     * Set or replace the fragment
+     * inside it`s holder
      *
-     * @param fragment
+     * @param fragment given Fragment
      */
     private void setFragment(Fragment fragment) {
         if (fragment != null) {
@@ -122,9 +125,9 @@ public class MainActivity extends AppCompatActivity implements InfoAdapter.OnInf
             Fragment tempFrag = fragmentManager.findFragmentByTag(FRAGMENTTAG);
             FragmentTransaction transaction = fragmentManager.beginTransaction();
 
-            if(tempFrag != null){
-                transaction.replace(R.id.viewHolder, fragment,FRAGMENTTAG);
-            }else {
+            if (tempFrag != null) {
+                transaction.replace(R.id.viewHolder, fragment, FRAGMENTTAG);
+            } else {
                 transaction.add(R.id.viewHolder, fragment, FRAGMENTTAG);
             }
 
@@ -132,16 +135,27 @@ public class MainActivity extends AppCompatActivity implements InfoAdapter.OnInf
         }
     }
 
+    /**
+     * onPause
+     * used to remove the fragment
+     */
     @Override
     protected void onPause() {
         super.onPause();
 
-        if(isFinishing()){
+        if (isFinishing()) {
             FragmentManager fragmentManager = getSupportFragmentManager();
             fragmentManager.beginTransaction().remove(fragment).commit();
         }
     }
 
+    /**
+     * onInfoSelected
+     * Called when a user clicked an Item
+     *
+     * @param info     InfoObject contains title, details, imgId
+     * @param position Position from that item
+     */
     @Override
     public void onInfoSelected(Info info, int position) {
         InfoFragment infoFragment = (InfoFragment) getSupportFragmentManager().findFragmentByTag(FRAGMENTTAG);

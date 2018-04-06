@@ -10,22 +10,23 @@
     tools:showIn="@layout/activity_country_info">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp">
+        android:orientation="vertical"
+        android:padding="@dimen/padding">
 
         <ImageView
             android:id="@+id/imageView"
-            android:src="@drawable/flagge_deutschland"
             android:layout_width="match_parent"
-            android:layout_height="100dp"/>
+            android:layout_height="@dimen/info_image_height"
+            android:contentDescription="@string/info_flag"
+            android:src="@drawable/flagge_deutschland" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/margin_item"
             android:text="@string/german_info" />
 
     </LinearLayout>

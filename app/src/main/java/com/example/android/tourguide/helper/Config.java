@@ -29,4 +29,11 @@ public interface Config {
     String RESOURCEDRAWABLE = "drawable";
 
     String LASTITEMPOSITION = "LASTITEMPOSITION";
+
+    //MAP
+    int MAPZOOMLV = 5;
+
+    //LAT,LNG
+    double GERMANCENTERLAT = 51.165691;
+    double GERMANCENTERLNG = 10.451526;
 }
